@@ -31,7 +31,7 @@
           </tr>
         </tbody>
       </table>
-      <figure> <img class="img_side" src="log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
+      <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
     </div>
     <h1 class="Software_heading">LIST OF MY PROJECTS   ///   FILTER WITH ICONS </h1>
     
