@@ -2,7 +2,7 @@
   <div class="w-full mb-6 md:mb-0">
     <div class="relative  mb-4">
       <div class="usage-filter">
-      <label class="filter-label">Usage Filter</label>
+      <label class="filter-label">PROJECT</label>
       <select
         @change="filterData(subCat)"
         v-model="subCat"
@@ -21,7 +21,7 @@
         "
         id="grid-state"
       >
-        <option value="">Sub filter</option>
+        <option value="">ALL</option>
         <option value="app">App</option>
         <option value="article">Article</option>
         <option value="api">Api</option>
@@ -148,6 +148,7 @@
 .usage-filter {
   display: flex;
   justify-content: center;
+  margin-top: -30px;
 }
 
 .usage-filter .filter-label {
@@ -155,6 +156,10 @@
   margin-top: 10px;
   margin-right: 30px;
   vertical-align: middle;
+  font-size: 13px;
+}
+select#grid-state {
+  padding: 7px;
 }
 thead.vue3-easy-data-table__header tr th:nth-child(2) > span {
   justify-content: left !important;
