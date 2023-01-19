@@ -1,6 +1,6 @@
 <template>
 
-<h1 class="titre">LIST OF MY PROJECTS   //   FILTER WITH ICONS </h1>
+<h1 class="titre">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
   <div class="w-full mb-6 md:mb-0">
    
     
@@ -69,11 +69,12 @@
 .titre {
   font-size: 20px;
   margin-top: -50px;
-  margin-bottom: 10px;
+  margin-bottom: -25px;
   color: #fff;
-  font-family: "Anvir", serif
+  font-family: "Anvir", serif;
   
 }  
+
 .sortable.none .sortType-icon {
   display: none !important;
 }
