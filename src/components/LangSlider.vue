@@ -33,7 +33,7 @@
       </table>
       <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
     </div>
-    <h1 class="Software_heading">LIST OF MY PROJECTS   ///   FILTER WITH ICONS </h1>
+    <h1 class="Software_heading"> </h1>
     
     
 
@@ -153,28 +153,34 @@
   padding: 0px 10px;
 }
 
+figure {
+  margin-top: -100em;
+  margin-bottom: -300em;
+}
+
 figcaption {
   text-align: center;
   color: white;
   font-size:10px;
-  ;
+  
 }
 
 .img_side {
   width: 50px;
   height: 50px;
 }
+
 .Software_heading {
-  font-size: 18px;
-  margin-top: -10px;
-  margin-bottom: 30px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   color: #fff;
   text-decoration: underline;
-  font-family: "Anvir", serif
 }
+
 .data_heading {
   font-size: 16px;
-  margin-top: -30px;
+  margin-top: 0px;
   margin-bottom: -20px;
   color: #fff;
   text-decoration: underline;
@@ -287,16 +293,16 @@ graph_one {
   height: 70px;
 }
 .graph_one .td_two {
-  height: 45px;
+  height: 50px;
 }
 .graph_one .td_three {
-  height: 37px;
+  height: 40px;
 }
 .graph_one .td_four {
-  height: 55px;
+  height: 60px;
 }
 .graph_one .td_five {
-  height: 27px;
+  height: 30px;
 }
 .graph_one tbody {
   display: flex !important;
