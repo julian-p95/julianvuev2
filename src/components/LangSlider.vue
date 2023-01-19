@@ -174,8 +174,8 @@ figcaption {
 }
 .data_heading {
   font-size: 16px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -30px;
+  margin-bottom: -20px;
   color: #fff;
   text-decoration: underline;
 }
