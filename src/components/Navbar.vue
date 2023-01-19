@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        >Julian Passebecq</span
+        >Julian PASSEBECQ</span
       >
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
         <button
@@ -17,10 +17,10 @@
           class="nav-button text-sm sm:text-lg bg-white hover:bg-black hover:text-white text-black font-bold py-1 px-2 md:px-4 rounded inline-flex items-center mr-2.5"
         >
           
-          <span class="mt-1">4 YEAR EXP</span>
+          <span class="mt-1">4 YEARS EXP</span>
         </button>
         <a
-          href="https://github.com/PabloLec/StarryLines"
+          href="https://www.linkedin.com/in/julian-p95/"
           target="_blank"
           rel="noopener noreferrer"
         >
