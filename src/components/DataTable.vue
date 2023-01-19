@@ -1,32 +1,10 @@
 <template>
+
+<h1 class="titre">LIST OF MY PROJECTS   //   FILTER WITH ICONS </h1>
   <div class="w-full mb-6 md:mb-0">
-    <div class="relative  mb-4">
-      <div class="usage-filter">
-      <label class="filter-label">PROJECT</label>
-      <select
-        @change="filterData(subCat)"
-        v-model="subCat"
-        class="
-          block
-          appearance-none
-          bg-gray-200
-          border border-gray-200
-          text-gray-700
-          py-3
-          px-4
-          pr-8
-          rounded
-          leading-tight
-          focus:outline-none focus:bg-white focus:border-gray-500
-        "
-        id="grid-state"
-      >
-        <option value="">ALL</option>
-        <option value="app">App</option>
-        <option value="article">Article</option>
-        <option value="api">Api</option>
-      </select>
-      </div>
+   
+    
+
       <div
         class="
           pointer-events-none
@@ -48,7 +26,7 @@
             d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
           />
         </svg>
-      </div>
+     
     </div>
   </div>
   <EasyDataTable
@@ -87,6 +65,15 @@
 </template>
 
 <style>
+
+.titre {
+  font-size: 20px;
+  margin-top: -50px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Anvir", serif
+  
+}  
 .sortable.none .sortType-icon {
   display: none !important;
 }
@@ -111,16 +98,17 @@
 
   --easy-table-header-font-size: 14px;
   --easy-table-header-height: 50px;
-  --easy-table-header-font-color: #ffc40c;
+  --easy-table-header-font-color: #ffffff;
   --easy-table-header-background-color: #0c173c;
 
   --easy-table-header-item-padding: 10px 15px;
 
-  --easy-table-body-even-row-font-color: #fff;
-  --easy-table-body-even-row-background-color: #4c5d7a;
+  --easy-table-body-even-row-font-color: #ffffff;
+  --easy-table-body-even-row-background-color: #0f234b;
 
-  --easy-table-body-row-font-color: #c0c7d2;
-  --easy-table-body-row-background-color: #0c173c;
+  --easy-table-body-row-font-color: #ffffff;
+  --easy-table-body-row-background-color: #0f234b;
+  
   --easy-table-body-row-height: 50px;
   --easy-table-body-row-font-size: 14px;
 
@@ -148,13 +136,14 @@
 .usage-filter {
   display: flex;
   justify-content: center;
-  margin-top: -30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .usage-filter .filter-label {
   color: wheat;
-  margin-top: 10px;
-  margin-right: 30px;
+  margin-top: 100px;
+  margin-right: 0px;
   vertical-align: middle;
   font-size: 13px;
 }

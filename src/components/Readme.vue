@@ -23,46 +23,53 @@
         Julian Passebecq
       </h1>
       
-      <h2 class="text-2xl mt-8 font-bold text-mikado">Score calculation</h2>
+      <h2 class="text-2xl mt-8 font-bold text-mikado">EDUCATION</h2>
       <div class="ml-2 md:ml-4">
         
        
       </div>
-      <h2 class="text-xl mt-6">- Star count</h2>
+      <h2 class="text-xl mt-6">- Bachelor Mathematics Informatics</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          Although the star count displayed in the table is left unchanged, the
+          France 2012-2014 , Database, SQL, R, Finance
           
         </h3>
         
       </div>
-      <h2 class="text-xl mt-6">- Lines of code</h2>
+      <h2 class="text-xl mt-6">- Master of Science - Engineering</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          The entire code is parsed and stripped of comments or documentation.
+          Major - Energy, Renewable, Electricity, Optic Fiber
+         
+          
+        </h3>
+        
+         <h3 class="mt-2">
+          
+          Minor - Big Data, Open Data, Database
           
         </h3>
         
         
       </div>
-      <h2 class="text-2xl mt-8 font-bold text-mikado">Contributing</h2>
+      <h2 class="text-2xl mt-8 font-bold text-mikado">Contact</h2>
       <div class="ml-2 md:ml-4">
         
         <h3>
-          Apart from pull requests you can
+         You can contact me by Phone/Whatsapp
           <a
-            href="https://github.com/PabloLec/StarryLines/issues/new/choose"
+            href="https://www.linkedin.com/in/julian-p95/"
             class="no-underline hover:underline text-mikado"
-            >open an issue</a
+            >+33 7 67 42 48 98</a
           >
           
         </h3>
         <h3>
-          For feature requests, general ideas, or any broader topic
+          You can reach me by email
           <a
-            href="https://github.com/PabloLec/StarryLines/discussions"
+            href="https://www.linkedin.com/in/julian-p95/"
             class="no-underline hover:underline text-mikado"
-            >Discussions section</a
+            >julian.passebecq@gmail.com</a
           >.
         </h3>
       </div>
