@@ -1,8 +1,8 @@
 <template>
 
-<h1 class="titre">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
+
   <div class="w-full mb-6 md:mb-0">
-   
+   <h1 class="titre">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
     
 
       <div
