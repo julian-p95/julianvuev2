@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        >Julian Passebecq // Data Portfolio</span
+        >Julian Passebecq</span
       >
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
         <button
