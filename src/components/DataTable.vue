@@ -1,10 +1,34 @@
 <template>
 
 
-  <div class="w-full mb-6 md:mb-0">
-   <h1 class="titre">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
-    
-
+   <div class="w-full mb-6 md:mb-0">
+    <div class="relative  mb-4">
+      <div class="usage-filter">
+      <label class="filter-label">Usage Filter</label>
+      <select
+        @change="filterData(subCat)"
+        v-model="subCat"
+        class="
+          block
+          appearance-none
+          bg-gray-200
+          border border-gray-200
+          text-gray-700
+          py-3
+          px-4
+          pr-8
+          rounded
+          leading-tight
+          focus:outline-none focus:bg-white focus:border-gray-500
+        "
+        id="grid-state"
+      >
+        <option value="">Sub filter</option>
+        <option value="app">App</option>
+        <option value="article">Article</option>
+        <option value="api">Api</option>
+      </select>
+      </div>
       <div
         class="
           pointer-events-none
@@ -26,9 +50,11 @@
             d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
           />
         </svg>
-     
+      </div>
     </div>
   </div>
+  
+  
   <EasyDataTable
   ref="data-table"
   table-class-name="data-table"
@@ -66,14 +92,7 @@
 
 <style>
 
-.titre {
-  font-size: 20px;
-  margin-top: -50px;
-  margin-bottom: -25px;
-  color: #fff;
-  font-family: "Anvir", serif;
-  
-}  
+
 
 .sortable.none .sortType-icon {
   display: none !important;
@@ -134,20 +153,19 @@
 
   --easy-table-loading-mask-background-color: #0c173c;
 }
+
 .usage-filter {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }
-
 .usage-filter .filter-label {
   color: wheat;
-  margin-top: 100px;
-  margin-right: 0px;
+  margin-top: 10px;
+  margin-right: 30px;
   vertical-align: middle;
-  font-size: 13px;
 }
+
+
 select#grid-state {
   padding: 7px;
 }
