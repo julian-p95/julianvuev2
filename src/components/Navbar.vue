@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        >Julian PASSEBECQ</span
+        >Ivan PAzbek</span
       >
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
         <button
@@ -20,7 +20,7 @@
           <span class="mt-1">4 YEARS EXP</span>
         </button>
         <a
-          href="https://www.linkedin.com/in/julian-p95/"
+          href="https://www.linkedin.com/in/j-p95/"
           target="_blank"
           rel="noopener noreferrer"
         >

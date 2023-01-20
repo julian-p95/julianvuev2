@@ -33,7 +33,7 @@
       </table>
       <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
     </div>
-    <h1 class="Software_heading"> </h1>
+    <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
     
     
 
@@ -171,8 +171,8 @@ figcaption {
 }
 
 .Software_heading {
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 26px;
+  margin-top: -20px;
   margin-bottom: 20px;
   color: #fff;
   text-decoration: underline;

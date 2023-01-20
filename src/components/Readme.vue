@@ -20,7 +20,7 @@
     >
       <slot v-bind:params="params"></slot>
       <h1 v-if="isPrerender" class="text-3xl">
-        Julian Passebecq
+        Pazbek
       </h1>
       
       <h2 class="text-2xl mt-8 font-bold text-mikado">EDUCATION</h2>
@@ -58,9 +58,9 @@
         <h3>
          You can contact me by Phone/Whatsapp
           <a
-            href="https://www.linkedin.com/in/julian-p95/"
+            href="https://www.linkedin.com/in/ju95/"
             class="no-underline hover:underline text-mikado"
-            >+33 7 67 42 48 98</a
+            >+33 7 8</a
           >
           
         </h3>
@@ -69,7 +69,7 @@
           <a
             href="https://www.linkedin.com/in/julian-p95/"
             class="no-underline hover:underline text-mikado"
-            >julian.passebecq@gmail.com</a
+            >julian.pam</a
           >.
         </h3>
       </div>
