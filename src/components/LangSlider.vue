@@ -171,8 +171,6 @@ figcaption {
 
 .Software_heading {
   font-size: 26px;
-  margin-top: -20px;
-  margin-bottom: 20px;
   color: #fff;
   text-decoration: underline;
 }
@@ -232,6 +230,7 @@ figcaption {
 
 .single-category p.category-name {
   color: wheat;
+  font-size: 11px;
 }
 
 graph_one {

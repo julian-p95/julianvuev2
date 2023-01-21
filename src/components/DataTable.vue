@@ -1,7 +1,13 @@
 <template>
 <div class="w-full mb-6 md:mb-0">
-    
-    <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
+    <div class="project-details-container">
+        <div class="usage-filter count-box">
+            {{ items.length }}
+        </div>
+        <div class="titl">
+            <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
+        </div>
+    </div>
     <div class="relative filter-section  mb-4">
         <div class="usage-filter">
             <input @keyup="searchEngine(searchValue)" v-model="searchValue" placeholder="Search Engine" class="
@@ -38,9 +44,7 @@
                 <option value="personal">Personal</option>
             </select>
         </div>
-        <div class="usage-filter count-box">
-            {{ items.length }}
-        </div>
+        
         <div class="
           pointer-events-none
           absolute
@@ -198,8 +202,9 @@ tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(2) {
 
 .usage-filter.count-box {
     background: white;
-    padding: 10px 15px;
+    padding: 1px 15px;
     border-radius: 3px;
+    margin-right: 10px;
 }
 </style>
 

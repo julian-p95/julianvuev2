@@ -1,11 +1,20 @@
+.project-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) and (min-width: 320px){
+
+    h1.Software_heading {
+        font-size: 15px;
+    }
+}
+
 @media only screen and (min-width: 390px) {
     input#grid-state {
         max-width: 156px;
-    }
-
-    .Software_heading {
-        font-size: 16px !important;
-        margin-top: -24px !important;
     }
 
     tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(1) {
