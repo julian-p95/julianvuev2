@@ -1,5 +1,5 @@
 <template>
-  <div class="my-16">
+  <div class="my-12">
     
     <div class="graph_one">
       <figure> <img class="img_side" src="/log_one.png"  alt="" /> <figcaption>CV PDF</figcaption> </figure>
@@ -32,10 +32,7 @@
         </tbody>
       </table>
       <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
-    </div>
-    <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
-    
-    
+    </div>    
 
 
     <div id="lang-wrapper">
@@ -60,7 +57,8 @@
         >
         <img
         @click="clickCategory(cat)"
-        :class="`cursor-pointer max-h-16 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo ${cat}-logo`"
+        :class="`cursor-pointer max-h-16 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo
+         ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
@@ -68,9 +66,9 @@
         </swiper-slide>
       </swiper>
     </div> 
-    <div id="swiper-buttons" class="flex justify-between mt-4 mx-4">
-      <button @click="prev(0)">
-        <svg
+    <div id="swiper-buttons" class="flex justify-between mb-4 mt-4 mx-4">
+      <button>
+        <svg @click="prev(0)"
           class="prev w-12 fill-gray hover:fill-mikado"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -78,8 +76,8 @@
           <path d="M16 8v-4l8 8-8 8v-4h-16l8-8h8z" />
         </svg>
       </button>
-      <button @click="next(0)">
-        <svg
+      <button>
+        <svg @click="next(0)"
           class="w-12 fill-gray hover:fill-mikado"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -113,7 +111,8 @@
         >
         <img
         @click="clickCategory(cat)"
-        :class="`cursor-pointer max-h-16 mt-10 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo ${cat}-logo`"
+        :class="`cursor-pointer max-h-16 mt-10 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo 
+        ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
@@ -122,8 +121,8 @@
       </swiper>
     </div> 
     <div id="swiper-buttons" class="flex justify-between mt-4 mx-4">
-      <button @click="prev(1)">
-        <svg
+      <button>
+        <svg @click="prev(1)"
           class="prev w-12 fill-gray hover:fill-mikado"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -131,8 +130,8 @@
           <path d="M16 8v-4l8 8-8 8v-4h-16l8-8h8z" />
         </svg>
       </button>
-      <button @click="next(1)">
-        <svg
+      <button>
+        <svg  @click="next(1)"
           class="w-12 fill-gray hover:fill-mikado"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -308,6 +307,10 @@ graph_one {
   display: flex !important;
 }
 
+div#swiper-buttons button svg {
+  height: 25px;
+}
+
 </style>
 
 <script lang="ts">
@@ -319,25 +322,25 @@ import { Keyboard, FreeMode, Navigation } from "swiper";
 import "swiper/css";
 
 const CATEGORIESFIRSTLINE = [
-  "wind",
-  "geothermal",
-  "renewable",
-  "fossil",
-  "amazon",
-  "apple",
-  "microsoft",
-  "tesla"
+  "excel",
+  "power bi",
+  "sql",
+  "python",
+  "azure",
+  "docker",
+  "r",
+  "sap",
+  "big query"
 ];
 const CATEGORIESSECONDLINE = [
-  "telecom",
-  "uv",
-  "water",
-  "solar panel",
-  "flood",
-  "earth",
-  "solar",
-  "electricity",
-  "google"
+  "data analytics",
+  "data visualization",
+  "data engineering",
+  "database",
+  "Statistics",
+  "machine learning",
+  "front end",
+  "Web Scraping",
 ];
 
 function highlightSelected(cat: string) {
@@ -346,6 +349,7 @@ function highlightSelected(cat: string) {
   logos.forEach((logo) => {
     logo.classList.remove("logo-selected");
   });
+  console.log("logo changed ",cat)
   document.querySelectorAll(`.${cat}-logo`).forEach((logo) => {
     logo.classList.add("logo-selected");
   });
@@ -373,7 +377,10 @@ export default defineComponent({
   methods: {
     clickCategory(cat: string) {
       this.$emit("clickCategory", cat);
-      highlightSelected(cat);
+      if (cat.indexOf(" ") > -1) {
+                highlightSelected(cat.replace(/ /g, "-"));
+            } else
+            highlightSelected(cat);
     },
     next(index: number) {
       let button = document?.getElementsByClassName(

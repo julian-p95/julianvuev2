@@ -2,7 +2,7 @@
   <Navbar @showReadme="showReadme" />
   <div class="mx-0 sm:mx-12 md:mx-16 lg:mx-20">
     <LangSlider @clickCategory="changeCategory" />
-    <DataTable :category="category" />
+    <DataTable :tool="category" />
     <Readme
       :showModal="showModal"
       @close="hideReadme"

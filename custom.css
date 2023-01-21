@@ -1,0 +1,14 @@
+@media only screen and (min-width: 390px) {
+    input#grid-state {
+        max-width: 156px;
+    }
+
+    .Software_heading {
+        font-size: 16px !important;
+        margin-top: -24px !important;
+    }
+
+    tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(1) {
+        min-width: 23px !important;
+    }
+}
