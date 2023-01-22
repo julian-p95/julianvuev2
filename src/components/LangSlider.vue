@@ -2,7 +2,7 @@
   <div class="my-12">
     
     <div class="graph_one">
-      <h1 class="title1">BACHELOR <br/> Mathematics <br/> +Informatics </h1>
+      <h1 class="title1"><u>BACHELOR</u> <br/> Mathematics <br/> +Informatics </h1>
       
       <table
         id="animations-example-6"
@@ -31,8 +31,11 @@
           </tr>
         </tbody>
       </table>
-     <h1 class="title2">MASTER <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
+     <h1 class="title2"><u>MASTER</u> <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
     </div>    
+
+    
+    <hr size="5" width="100%" color="white">  
 
     <div class="tit">
       <h1 class="tit0">CLICK & SWIPE ON ICONS TO FILTER</h1>
@@ -143,11 +146,18 @@
         </svg>
       </button>
     </div>
+    <hr size="5" width="100%" >  
   </div>
 </template>
 
 <style>
 
+hr{
+  border: 2;
+  border-bottom: 1px dashed #eee;
+  background: #999;
+  
+}
 .graph_one {
   display: flex;
   justify-content: center;
@@ -193,8 +203,8 @@ figcaption {
 
 .tit0 {
   font-size: 10px;
-  margin-top: -20px;
-  margin-bottom: 0px;
+  margin-top: -30px;
+  margin-bottom: 10px;
   text-align: center;
   color: #fff;
  
@@ -313,19 +323,19 @@ graph_one {
   border: 2px solid #fff;
 }
 .graph_one .td_one {
-  height: 70px;
-}
-.graph_one .td_two {
-  height: 50px;
-}
-.graph_one .td_three {
-  height: 40px;
-}
-.graph_one .td_four {
   height: 60px;
 }
-.graph_one .td_five {
+.graph_one .td_two {
+  height: 40px;
+}
+.graph_one .td_three {
   height: 30px;
+}
+.graph_one .td_four {
+  height: 50px;
+}
+.graph_one .td_five {
+  height: 20px;
 }
 .graph_one tbody {
   display: flex !important;

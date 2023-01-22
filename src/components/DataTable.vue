@@ -5,7 +5,7 @@
             {{ items.length }}
         </div>
         <div class="titl">
-            <h1 class="Software_heading">PROJECTS IN MY PORTFOLIO </h1>
+            <h1 class="Software_heading">PROJECTS IN PORTFOLIO </h1>
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -89,10 +89,10 @@
 <style>
 
 .Software_heading {
-    font-size: 56px;
+    font-size: 35px;
     color: #fff;
     text-decoration: underline;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-bottom: 0px;
   }
 
@@ -101,7 +101,7 @@
     padding: 1px 15px;
     border-radius: 3px;
     margin-right: 5px;
-    margin-top: -40px;
+    margin-top: -35px;
     margin-bottom: 15px;
 }
 .sortable.none .sortType-icon {
@@ -176,6 +176,8 @@
 .usage-filter {
     display: flex;
     justify-content: center;
+    margin-top: 0x;
+    margin-bottom: 0px;
 }
 
 .usage-filter .filter-label {
@@ -187,6 +189,9 @@
 
 select#grid-state {
     padding: 7px;
+    margin-top: 0px;
+    
+    
 }
 
 thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
