@@ -2,7 +2,7 @@
   <div class="my-12">
     
     <div class="graph_one">
-      <figure> <img class="img_side" src="/log_one.png"  alt="" /> <figcaption>CV PDF</figcaption> </figure>
+      <h1 class="title1">BACHELOR <br/> Mathematics <br/> +Informatics </h1>
       
       <table
         id="animations-example-6"
@@ -31,9 +31,12 @@
           </tr>
         </tbody>
       </table>
-      <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
+     <h1 class="title2">MASTER <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
     </div>    
 
+    <div class="tit">
+      <h1 class="tit0">CLICK & SWIPE ON ICONS TO FILTER</h1>
+    </div>
 
     <div id="lang-wrapper">
       <swiper
@@ -169,18 +172,40 @@ figcaption {
   height: 50px;
 }
 
-.Software_heading {
-  font-size: 26px;
-  color: #fff;
-  text-decoration: underline;
-}
+
 
 .data_heading {
   font-size: 16px;
   margin-top: 0px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
+}
+
+.title1 {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #fff;
+ 
+}
+
+.tit0 {
+  font-size: 10px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+ 
+}
+.title2 {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  color: #fff;
+ 
 }
 
 

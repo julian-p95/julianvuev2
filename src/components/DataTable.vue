@@ -5,7 +5,7 @@
             {{ items.length }}
         </div>
         <div class="titl">
-            <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
+            <h1 class="Software_heading">PROJECTS IN MY PORTFOLIO </h1>
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -87,6 +87,23 @@
 </template>
 
 <style>
+
+.Software_heading {
+    font-size: 56px;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: -40px;
+    margin-bottom: 0px;
+  }
+
+.usage-filter.count-box {
+    background: white;
+    padding: 1px 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
 .sortable.none .sortType-icon {
     display: none !important;
 }
@@ -200,12 +217,7 @@ tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(2) {
     text-align: left;
 }
 
-.usage-filter.count-box {
-    background: white;
-    padding: 1px 15px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
+
 </style>
 
 <script lang="ts">
