@@ -5,7 +5,7 @@
             {{ items.length }}
         </div>
         <div class="titl">
-            <h1 class="Software_heading">PROJECTS IN PORTFOLIO </h1>
+            <h1 class="Software_heading">PROJECTS IN THE PORTFOLIO </h1>
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -92,7 +92,7 @@
     font-size: 35px;
     color: #fff;
     text-decoration: underline;
-    margin-top: -50px;
+    margin-top: -38px;
     margin-bottom: 0px;
   }
 

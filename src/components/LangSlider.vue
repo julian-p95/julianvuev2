@@ -31,15 +31,17 @@
           </tr>
         </tbody>
       </table>
-     <h1 class="title2"><u>MASTER</u> <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
+     <h1 class="title2"><u>MASTER</u> <br/>Engineer <br/>+Big Data </h1>
+     
          
     </div>    
-
+    
     
    
 
     <div class="tit">
-      <h1 class="tit0">CLICK & SWIPE ON ICONS TO FILTER</h1>
+      
+      <h1 class="tit0">CLICK & SWIPE ICONS TO FILTER THE PORTFOLIO</h1>
     </div>
 
     <div id="lang-wrapper">
@@ -147,39 +149,19 @@
         </svg>
       </button>
     </div>
-    <hr  width="100%" > 
+    
   </div>
 </template>
 
 <style>
 
-hr{
-  border-top: 1px dashed rgb(255, 255, 255);
-  
-  
-}
+
 .graph_one {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 10px;
-}
-
-figure {
-  margin-top: -100em;
-  margin-bottom: -300em;
-}
-
-figcaption {
-  text-align: center;
-  color: white;
-  font-size:10px;
   
-}
-
-.img_side {
-  width: 50px;
-  height: 50px;
 }
 
 
@@ -201,6 +183,7 @@ figcaption {
  
 }
 
+
 .tit0 {
   font-size: 13px;
   margin-top: -30px;
@@ -208,6 +191,7 @@ figcaption {
   text-align: center;
   color: #fff;
   text-decoration: underline;
+  
   
  
 }
@@ -305,24 +289,24 @@ graph_one {
   }
 }
 .graph_one {
-  margin-top: -50px;
-  margin-bottom: 28px;
+  margin-top: -45px;
+  margin-bottom: 25px;
 }
 .graph_one th {
   color: #fff;
   margin-top: 3px;
   font-style: italic;
   font-weight: 200;
-  font-size: 11px;
+  font-size: 10px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 42px;
+  width: 32px;
   margin: 7px;
 }
 .graph_one td {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 .graph_one .td_one {
   height: 60px;
@@ -337,7 +321,7 @@ graph_one {
   height: 50px;
 }
 .graph_one .td_five {
-  height: 20px;
+  height: 30px;
 }
 .graph_one tbody {
   display: flex !important;
