@@ -32,10 +32,11 @@
         </tbody>
       </table>
      <h1 class="title2"><u>MASTER</u> <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
+         
     </div>    
 
     
-    <hr size="5" width="100%" color="white">  
+   
 
     <div class="tit">
       <h1 class="tit0">CLICK & SWIPE ON ICONS TO FILTER</h1>
@@ -146,16 +147,15 @@
         </svg>
       </button>
     </div>
-    <hr size="5" width="100%" >  
+    <hr  width="100%" > 
   </div>
 </template>
 
 <style>
 
 hr{
-  border: 2;
-  border-bottom: 1px dashed #eee;
-  background: #999;
+  border-top: 1px dashed rgb(255, 255, 255);
+  
   
 }
 .graph_one {
@@ -202,11 +202,13 @@ figcaption {
 }
 
 .tit0 {
-  font-size: 10px;
+  font-size: 13px;
   margin-top: -30px;
   margin-bottom: 10px;
   text-align: center;
   color: #fff;
+  text-decoration: underline;
+  
  
 }
 .title2 {
