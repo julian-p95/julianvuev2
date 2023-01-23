@@ -2,7 +2,7 @@
   <div class="my-12">
     
     <div class="graph_one">
-      <h1 class="title1">BACHELOR <br/> Mathematics <br/> +Informatics </h1>
+      <h1 class="title1"><u>BACHELOR</u> <br/> Mathematics <br/> +Informatics </h1>
       
       <table
         id="animations-example-6"
@@ -31,11 +31,17 @@
           </tr>
         </tbody>
       </table>
-     <h1 class="title2">MASTER <br/>Engineer<br/> + MINOR<br/> Big Data </h1>
+     <h1 class="title2"><u>MASTER</u> <br/>Engineer <br/>+Big Data </h1>
+     
+         
     </div>    
+    
+    
+   
 
     <div class="tit">
-      <h1 class="tit0">CLICK & SWIPE ON ICONS TO FILTER</h1>
+      
+      <h1 class="tit0"></h1>
     </div>
 
     <div id="lang-wrapper">
@@ -143,40 +149,26 @@
         </svg>
       </button>
     </div>
+    
   </div>
 </template>
 
 <style>
+
 
 .graph_one {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 10px;
-}
-
-figure {
-  margin-top: -100em;
-  margin-bottom: -300em;
-}
-
-figcaption {
-  text-align: center;
-  color: white;
-  font-size:10px;
   
-}
-
-.img_side {
-  width: 50px;
-  height: 50px;
 }
 
 
 
 .data_heading {
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
@@ -184,27 +176,33 @@ figcaption {
 
 .title1 {
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
- 
+  margin-left: 20px;
+
 }
 
+
 .tit0 {
-  font-size: 10px;
-  margin-top: -20px;
-  margin-bottom: 0px;
+  font-size: 13px;
+  margin-top: -25px;
+  margin-bottom: 10px;
   text-align: center;
   color: #fff;
+  text-decoration: underline;
+  
+  
  
 }
 .title2 {
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
+  margin-right: 20px;
  
 }
 
@@ -293,36 +291,36 @@ graph_one {
   }
 }
 .graph_one {
-  margin-top: -50px;
-  margin-bottom: 28px;
+  margin-top: -45px;
+  margin-bottom: 25px;
 }
 .graph_one th {
   color: #fff;
   margin-top: 3px;
   font-style: italic;
   font-weight: 200;
-  font-size: 11px;
+  font-size: 10px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 42px;
+  width: 32px;
   margin: 7px;
 }
 .graph_one td {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 70px;
+  height: 60px;
 }
 .graph_one .td_two {
-  height: 50px;
-}
-.graph_one .td_three {
   height: 40px;
 }
+.graph_one .td_three {
+  height: 30px;
+}
 .graph_one .td_four {
-  height: 60px;
+  height: 50px;
 }
 .graph_one .td_five {
   height: 30px;
