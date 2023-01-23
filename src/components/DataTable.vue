@@ -5,7 +5,7 @@
             {{ items.length }}
         </div>
         <div class="titl">
-            <h1 class="Software_heading">PROJECTS IN THE PORTFOLIO </h1>
+            <h1 class="Software_heading"><u>PROJECTS IN THE PORTFOLIO</u> <br/>Click & Swipe Icons to Filter</h1>
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -91,8 +91,8 @@
 .Software_heading {
     font-size: 35px;
     color: #fff;
-    text-decoration: underline;
-    margin-top: -38px;
+    
+    margin-top: -30px;
     margin-bottom: 0px;
   }
 

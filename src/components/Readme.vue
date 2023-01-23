@@ -23,7 +23,7 @@
         Pazbek
       </h1>
       
-      <h2 class="text-2xl mt-8 font-bold text-mikado">EDUCATION</h2>
+      <h2 class="text-2xl mt-8 font-bold text-white">EDUCATION - 2012-2018</h2>
       <div class="ml-2 md:ml-4">
         
        
@@ -31,7 +31,7 @@
       <h2 class="text-xl mt-6">- Bachelor Mathematics Informatics</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          France 2012-2014 , Database, SQL, R, Finance
+          France 2012-2014 , Database, SQL, R
           
         </h3>
         
@@ -39,38 +39,32 @@
       <h2 class="text-xl mt-6">- Master of Science - Engineering</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          Major - Energy, Renewable, Electricity, Optic Fiber
+          Major - Energy, Renewable, Optic Fiber
          
           
         </h3>
         
          <h3 class="mt-2">
           
-          Minor - Big Data, Open Data, Database
+          Minor - Big Data, Open Data, Analytics
           
         </h3>
         
         
       </div>
-      <h2 class="text-2xl mt-8 font-bold text-mikado">Contact</h2>
+      <h2 class="text-2xl mt-8 font-bold text-white">CONTACT - FOR NEW JOB</h2>
       <div class="ml-2 md:ml-4">
         
         <h3>
-         You can contact me by Phone/Whatsapp
-          <a
-            href="https://www.linkedin.com/in/ju95/"
-            class="no-underline hover:underline text-mikado"
-            >+33 7 8</a
-          >
+          Whatsapp :
+          
+            +33 7 67 42 48 98
           
         </h3>
         <h3>
-          You can reach me by email
-          <a
-            href="https://www.linkedin.com/in/julian-p95/"
-            class="no-underline hover:underline text-mikado"
-            >julian.pam</a
-          >.
+          Email :
+          
+            julian.passebecq@gmail.com 
         </h3>
       </div>
     </div>

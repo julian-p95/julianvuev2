@@ -20,7 +20,7 @@
           <span class="mt-1">4 YEARS EXP</span>
         </button>
         <a
-          href="https://www.linkedin.com/in/j-p95/"
+          href="https://www.linkedin.com/in/julian-p95/"
           target="_blank"
           rel="noopener noreferrer"
         >

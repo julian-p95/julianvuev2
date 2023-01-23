@@ -41,7 +41,7 @@
 
     <div class="tit">
       
-      <h1 class="tit0">CLICK & SWIPE ICONS TO FILTER THE PORTFOLIO</h1>
+      <h1 class="tit0"></h1>
     </div>
 
     <div id="lang-wrapper">
@@ -176,11 +176,11 @@
 
 .title1 {
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
- 
+
 }
 
 
@@ -197,7 +197,7 @@
 }
 .title2 {
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
