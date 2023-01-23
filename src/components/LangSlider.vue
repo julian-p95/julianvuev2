@@ -71,7 +71,7 @@
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
-      <p class="category-name">{{ cat }}</p>
+      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
@@ -125,7 +125,7 @@
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
-      <p class="category-name">{{ cat }}</p>
+      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
@@ -232,7 +232,8 @@
 
 @media all and (max-width: 640px) {
   #swiper-buttons {
-    display: none !important;
+    display: flex;
+    justify-content: space-between;
   }
 }
 .lang-logo {
@@ -397,6 +398,9 @@ export default defineComponent({
     };
   },
   methods: {
+    capitalize(str: string) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    },
     clickCategory(cat: string) {
       this.$emit("clickCategory", cat);
       if (cat.indexOf(" ") > -1) {

@@ -20,4 +20,19 @@
     tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(1) {
         min-width: 23px !important;
     }
+
+    thead.vue3-easy-data-table__header tr th span{
+        text-align: left;
+    }
+    
+    .vue3-easy-data-table__body.row-alternation tr td {
+        text-align: left !important;
+    }
+    .vue3-easy-data-table__body.row-alternation tr td {
+        text-align: left !important;
+    }
+
+    .vue3-easy-data-table__header th .header.direction-center {
+        justify-content: start !important;
+    }
 }

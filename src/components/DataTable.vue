@@ -210,12 +210,14 @@ thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
 
 .expended-row {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    text-align: left;
 }
 
 
 .expended-row .details {
     margin-right: 50px;
+    margin-left: 30px;
 }
 
 .vue3-easy-data-table__body td .expand-icon {
@@ -433,8 +435,8 @@ export default defineComponent({
                 sortable: true,
             },
             {
-                text: "Tool",
-                value: "tool",
+                text: "Classification",
+                value: "classification",
                 sortable: true,
             },
             {
@@ -443,8 +445,8 @@ export default defineComponent({
                 sortable: true,
             },
             {
-                text: "Classification",
-                value: "classification",
+                text: "Tool",
+                value: "tool",
                 sortable: true,
             },
             {
