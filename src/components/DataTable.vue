@@ -98,7 +98,7 @@
   }
 
   .Software_heading2 {
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     
     margin-top: 0px;
@@ -107,8 +107,8 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 4px 10px;
-    border-radius: 3px;
+    padding: 1px 6px;
+    border-radius: 5px;
     margin-right: 4px;
     margin-top: -42px;
     margin-bottom: 15px;
@@ -174,7 +174,7 @@
 }
 .reset-btn {
     background: white;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .relative.filter-section {
     width: 100%;
