@@ -67,8 +67,8 @@
 </div>
 
 <EasyDataTable ref="data-table" table-class-name="data-table" class="font-mono" :headers="headers" :items="items" :loading="loading" :header-item-class-name="getHeaderClassNameByIndex" :body-item-class-name="getItemClassNameByIndex" updatePage @click-row="expandRow" theme-color="#FFC40C" header-text-direction="center" body-text-direction="center" alternating>
-    <template #item-name="{ name, url }">
-        <a class="repo-link after:content-['_↗'] after:text-sm after:pb-2" :href="url" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+    <template #item-link="{ link }">
+        <a class="repo-link after:content-['_↗'] after:text-sm after:pb-2" :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>
     </template>
     <template #expand="item">
         <div class="expended-row">
@@ -308,10 +308,6 @@ export default defineComponent({
     methods: {
         resetData(){
             location.reload();
-            // this.subCat = '';
-            // this.searchValue = '';
-            // this.resetOption = true;
-            // this.fetchData();
         },
         filterData(subCat: String) {
             this.items = this.mainData;
