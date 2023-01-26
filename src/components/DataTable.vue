@@ -87,7 +87,7 @@
 </EasyDataTable>
 </template>
 
-<style>
+<style> 
 
 .Software_heading {
     font-size: 35px;
