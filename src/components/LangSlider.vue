@@ -39,7 +39,7 @@
      <h1 class="title2"><u>MASTER</u> <br/>ENGINEER <br/>Electricity <br/>Renewable <br/>+Big Data </h1>
        
     </div>   
-    <hr style="width:100%;align:center; margin-top: -2em;">
+    <hr style="width:100%;align:center; margin-top: -2em;color:white">
     <div class="tit">
       
       <h1 class="tit0"></h1>
