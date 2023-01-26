@@ -168,7 +168,7 @@
 
 .data_heading {
   font-size: 16px;
-  margin-top: -20px;
+  margin-top: -40px;
   margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
@@ -187,8 +187,8 @@
 
 .tit0 {
   font-size: 13px;
-  margin-top: -25px;
-  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-bottom: 20px; 
   text-align: center;
   color: #fff;
   text-decoration: underline;
