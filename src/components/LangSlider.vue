@@ -1,8 +1,12 @@
 <template>
   <div class="my-12">
+
+    
     
     <div class="graph_one">
-      <h1 class="title1"><u>BACHELOR</u> <br/> Mathematics <br/> +Informatics </h1>
+      <h1 class="title1"><u>BACHELOR</u> <br/> +Mathematics <br/>  +Informatics <br/> -Statistics  <br/>-Physics  </h1>
+      
+       
       
       <table
         id="animations-example-6"
@@ -29,16 +33,13 @@
             <th scope="row">CLOUD</th>
             <td class="td_five"></td>
           </tr>
-        </tbody>
-      </table>
-     <h1 class="title2"><u>MASTER</u> <br/>Engineer <br/>+Big Data </h1>
-     
          
-    </div>    
-    
-    
-   
-
+        </tbody> 
+      </table> 
+     <h1 class="title2"><u>MASTER</u> <br/>+Engineer <br/>+Electricity<br/>-Data Viz <br/>-Big Data </h1>
+       
+    </div>   
+    <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
     <div class="tit">
       
       <h1 class="tit0"></h1>
@@ -151,10 +152,19 @@
     </div>
     
   </div>
+  <hr class="border2" style="width:100%;align:center; margin-top: -3em;margin-bottom: 2.5em;color:white">
 </template>
 
 <style>
 
+hr.border1 {
+border-top: 0.5px dashed rgb(255, 255, 255);
+}
+
+hr.border2 {
+  border-top: 0.5px dashed rgb(255, 255, 255);
+  }
+  
 
 .graph_one {
   display: flex;
@@ -165,29 +175,29 @@
 }
 
 
-
 .data_heading {
   font-size: 16px;
-  margin-top: -29px;
+  margin-top: -20px;
   margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
 }
 
 .title1 {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -20px;
   margin-bottom: 0px;
-  text-align: left;
+  text-align: center;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 10px;
 
 }
 
 
+
 .tit0 {
   font-size: 13px;
-  margin-top: -10px;
+  margin-top: 10px;
   margin-bottom: 20px; 
   text-align: center;
   color: #fff;
@@ -197,12 +207,12 @@
  
 }
 .title2 {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -20px;
   margin-bottom: 0px;
-  text-align: right;
+  text-align: center;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 10px;
  
 }
 
@@ -254,7 +264,7 @@
 
 .single-category p.category-name {
   color: wheat;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 graph_one {
@@ -292,8 +302,8 @@ graph_one {
   }
 }
 .graph_one {
-  margin-top: -45px;
-  margin-bottom: 25px;
+  margin-top: -47px;
+  margin-bottom: 30px;
 }
 .graph_one th {
   color: #fff;
@@ -305,33 +315,33 @@ graph_one {
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 32px;
+  width: 35px;
   margin: 7px;
 }
 .graph_one td {
   border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 60px;
+  height: 55px;
 }
 .graph_one .td_two {
   height: 40px;
 }
 .graph_one .td_three {
-  height: 30px;
+  height: 35px;
 }
 .graph_one .td_four {
   height: 50px;
 }
 .graph_one .td_five {
-  height: 30px;
+  height: 35px;
 }
 .graph_one tbody {
   display: flex !important;
 }
 
 div#swiper-buttons button svg {
-  height: 25px;
+  height: 15px;
 }
 
 </style>

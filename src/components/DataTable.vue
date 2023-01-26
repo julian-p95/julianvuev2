@@ -7,6 +7,7 @@
         <div class="titl">
             <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
             <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
+            
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -105,13 +106,15 @@
     margin-bottom: 0px;
   }
 
+ 
+
 .usage-filter.count-box {
     background: white;
-    padding: 3px 6px;
+    padding: 1px 5px;
     border-radius: 5px;
-    margin-right: 4px;
-    margin-top: -42px;
-    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-top: -30px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 .sortable.none .sortType-icon {
@@ -218,7 +221,7 @@ thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
 
 .expended-row .details {
     margin-right: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .vue3-easy-data-table__body td .expand-icon {
