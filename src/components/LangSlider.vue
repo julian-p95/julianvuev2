@@ -168,7 +168,7 @@
 
 .data_heading {
   font-size: 16px;
-  margin-top: -40px;
+  margin-top: -30px;
   margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
