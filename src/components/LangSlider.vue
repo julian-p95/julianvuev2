@@ -1,8 +1,12 @@
 <template>
   <div class="my-12">
+
+    
     
     <div class="graph_one">
-      <h1 class="title1"><u>BACHELOR</u> <br/> Mathematics <br/> +Informatics </h1>
+      <h1 class="title1"><u>BACHELOR</u> <br/> -Mathematics <br/> -Statistics <br/>  -Informatics <br/>-Physics  </h1>
+      
+       
       
       <table
         id="animations-example-6"
@@ -29,16 +33,13 @@
             <th scope="row">CLOUD</th>
             <td class="td_five"></td>
           </tr>
-        </tbody>
-      </table>
-     <h1 class="title2"><u>MASTER</u> <br/>Engineer <br/>+Big Data </h1>
-     
          
-    </div>    
-    
-    
-   
-
+        </tbody> 
+      </table> 
+     <h1 class="title2"><u>MASTER</u> <br/>ENGINEER <br/>Electricity <br/>Renewable <br/>+Big Data </h1>
+       
+    </div>   
+    <hr style="width:100%;align:center; margin-top: -2em;">
     <div class="tit">
       
       <h1 class="tit0"></h1>
@@ -176,7 +177,17 @@
 
 .title1 {
   font-size: 12px;
-  margin-top: -20px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #fff;
+  margin-left: 20px;
+
+}
+
+.title3 {
+  font-size: 12px;
+  margin-top: -15px;
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
@@ -187,7 +198,7 @@
 
 .tit0 {
   font-size: 13px;
-  margin-top: -10px;
+  margin-top: 10px;
   margin-bottom: 20px; 
   text-align: center;
   color: #fff;
@@ -198,7 +209,7 @@
 }
 .title2 {
   font-size: 12px;
-  margin-top: -20px;
+  margin-top: -15px;
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
