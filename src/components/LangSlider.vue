@@ -264,7 +264,7 @@ hr.border2 {
 
 .single-category p.category-name {
   color: wheat;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 graph_one {
