@@ -39,7 +39,7 @@
      <h1 class="title2"><u>MASTER</u> <br/>+Engineer <br/>+Electricity<br/>-Data Viz <br/>-Big Data </h1>
        
     </div>   
-    <hr style="width:100%;align:center; margin-top: -2em;color:white">
+    <hr class="border1" style="width:100%;align:center; margin-top: -2em;color:white">
     <div class="tit">
       
       <h1 class="tit0"></h1>
@@ -152,10 +152,19 @@
     </div>
     
   </div>
+  <hr class="border2" style="width:100%;align:center; margin-top: -3em;margin-bottom: 2.5em;color:white">
 </template>
 
 <style>
 
+hr.border1 {
+border-top: 1px dashed rgb(255, 255, 255);
+}
+
+hr.border2 {
+  border-top: 1px dashed rgb(255, 255, 255);
+  }
+  
 
 .graph_one {
   display: flex;
