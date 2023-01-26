@@ -39,7 +39,7 @@
      <h1 class="title2"><u>MASTER</u> <br/>+Engineer <br/>+Electricity<br/>-Data Viz <br/>-Big Data </h1>
        
     </div>   
-    <hr class="border1" style="width:100%;align:center; margin-top: -2em;color:white">
+    <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
     <div class="tit">
       
       <h1 class="tit0"></h1>
@@ -186,7 +186,7 @@ hr.border2 {
 
 .title1 {
   font-size: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
@@ -209,7 +209,7 @@ hr.border2 {
 }
 .title2 {
   font-size: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
@@ -265,7 +265,7 @@ hr.border2 {
 
 .single-category p.category-name {
   color: wheat;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 graph_one {
@@ -303,8 +303,8 @@ graph_one {
   }
 }
 .graph_one {
-  margin-top: -45px;
-  margin-bottom: 25px;
+  margin-top: -47px;
+  margin-bottom: 30px;
 }
 .graph_one th {
   color: #fff;
@@ -316,33 +316,33 @@ graph_one {
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 32px;
+  width: 35px;
   margin: 7px;
 }
 .graph_one td {
   border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 60px;
+  height: 55px;
 }
 .graph_one .td_two {
   height: 40px;
 }
 .graph_one .td_three {
-  height: 30px;
+  height: 35px;
 }
 .graph_one .td_four {
   height: 50px;
 }
 .graph_one .td_five {
-  height: 30px;
+  height: 35px;
 }
 .graph_one tbody {
   display: flex !important;
 }
 
 div#swiper-buttons button svg {
-  height: 25px;
+  height: 15px;
 }
 
 </style>
