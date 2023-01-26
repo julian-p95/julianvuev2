@@ -2,7 +2,7 @@
   <div class="my-12">
     
     <div class="graph_one">
-      <figure> <img class="img_side" src="/log_one.png"  alt="" /> <figcaption>CV PDF</figcaption> </figure>
+      <h1 class="title1"><u>BACHELOR</u> <br/> Mathematics <br/> +Informatics </h1>
       
       <table
         id="animations-example-6"
@@ -31,9 +31,18 @@
           </tr>
         </tbody>
       </table>
-      <figure> <img class="img_side" src="/log_two.png" alt="" /> <figcaption>GITHUB</figcaption> </figure>
+     <h1 class="title2"><u>MASTER</u> <br/>Engineer <br/>+Big Data </h1>
+     
+         
     </div>    
+    
+    
+   
 
+    <div class="tit">
+      
+      <h1 class="tit0"></h1>
+    </div>
 
     <div id="lang-wrapper">
       <swiper
@@ -62,7 +71,7 @@
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
-      <p class="category-name">{{ cat }}</p>
+      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
@@ -116,7 +125,7 @@
         :alt="cat"
         :src="`/logos/${cat}.png`"
       />
-      <p class="category-name">{{ cat }}</p>
+      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
@@ -140,47 +149,61 @@
         </svg>
       </button>
     </div>
+    
   </div>
 </template>
 
 <style>
+
 
 .graph_one {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 10px;
-}
-
-figure {
-  margin-top: -100em;
-  margin-bottom: -300em;
-}
-
-figcaption {
-  text-align: center;
-  color: white;
-  font-size:10px;
   
 }
 
-.img_side {
-  width: 50px;
-  height: 50px;
-}
 
-.Software_heading {
-  font-size: 26px;
-  color: #fff;
-  text-decoration: underline;
-}
 
 .data_heading {
   font-size: 16px;
-  margin-top: 0px;
-  margin-bottom: -20px;
+  margin-top: -20px;
+  margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
+}
+
+.title1 {
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #fff;
+  margin-left: 20px;
+
+}
+
+
+.tit0 {
+  font-size: 13px;
+  margin-top: -25px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+  
+  
+ 
+}
+.title2 {
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  text-align: right;
+  color: #fff;
+  margin-right: 20px;
+ 
 }
 
 
@@ -209,7 +232,8 @@ figcaption {
 
 @media all and (max-width: 640px) {
   #swiper-buttons {
-    display: none !important;
+    display: flex;
+    justify-content: space-between;
   }
 }
 .lang-logo {
@@ -268,36 +292,36 @@ graph_one {
   }
 }
 .graph_one {
-  margin-top: -50px;
-  margin-bottom: 28px;
+  margin-top: -45px;
+  margin-bottom: 25px;
 }
 .graph_one th {
   color: #fff;
   margin-top: 3px;
   font-style: italic;
   font-weight: 200;
-  font-size: 11px;
+  font-size: 10px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 42px;
+  width: 32px;
   margin: 7px;
 }
 .graph_one td {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 70px;
+  height: 60px;
 }
 .graph_one .td_two {
-  height: 50px;
-}
-.graph_one .td_three {
   height: 40px;
 }
+.graph_one .td_three {
+  height: 30px;
+}
 .graph_one .td_four {
-  height: 60px;
+  height: 50px;
 }
 .graph_one .td_five {
   height: 30px;
@@ -374,6 +398,9 @@ export default defineComponent({
     };
   },
   methods: {
+    capitalize(str: string) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    },
     clickCategory(cat: string) {
       this.$emit("clickCategory", cat);
       if (cat.indexOf(" ") > -1) {

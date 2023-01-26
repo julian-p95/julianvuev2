@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        >Ivan PAzbek</span
+        >Julian PASSEBECQ - 27 y.o</span
       >
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
         <button
@@ -20,7 +20,7 @@
           <span class="mt-1">4 YEARS EXP</span>
         </button>
         <a
-          href="https://www.linkedin.com/in/j-p95/"
+          href="https://www.linkedin.com/in/julian-p95/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -33,6 +33,7 @@
           </button>
         </a>
       </div>
+      
     </div>
   </nav>
 </template>
@@ -41,10 +42,14 @@
 @font-face {
   font-display: swap;
 }
+
+
 #nav-title {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
+  font-size: 17px;
+  
 }
 #navbar {
   background-color: #87ccfacd;

@@ -5,7 +5,8 @@
             {{ items.length }}
         </div>
         <div class="titl">
-            <h1 class="Software_heading">DATA PROJECT LIST //   FILTER WITH ICONS </h1>
+            <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
+            <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
         </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -66,8 +67,8 @@
 </div>
 
 <EasyDataTable ref="data-table" table-class-name="data-table" class="font-mono" :headers="headers" :items="items" :loading="loading" :header-item-class-name="getHeaderClassNameByIndex" :body-item-class-name="getItemClassNameByIndex" updatePage @click-row="expandRow" theme-color="#FFC40C" header-text-direction="center" body-text-direction="center" alternating>
-    <template #item-name="{ name, url }">
-        <a class="repo-link after:content-['_↗'] after:text-sm after:pb-2" :href="url" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+    <template #item-link="{ link }">
+        <a class="repo-link after:content-['_↗'] after:text-sm after:pb-2" :href="link" target="_blank" rel="noopener noreferrer">{{ link }}</a>
     </template>
     <template #expand="item">
         <div class="expended-row">
@@ -87,6 +88,31 @@
 </template>
 
 <style>
+
+.Software_heading {
+    font-size: 35px;
+    color: #fff;
+    
+    margin-top: -40px;
+    margin-bottom: 0px;
+  }
+
+  .Software_heading2 {
+    font-size: 14px;
+    color: #fff;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.usage-filter.count-box {
+    background: white;
+    padding: 1px 6px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-top: -42px;
+    margin-bottom: 15px;
+}
 .sortable.none .sortType-icon {
     display: none !important;
 }
@@ -148,7 +174,7 @@
 }
 .reset-btn {
     background: white;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .relative.filter-section {
     width: 100%;
@@ -159,6 +185,8 @@
 .usage-filter {
     display: flex;
     justify-content: center;
+    margin-top: 0x;
+    margin-bottom: 0px;
 }
 
 .usage-filter .filter-label {
@@ -170,6 +198,9 @@
 
 select#grid-state {
     padding: 7px;
+    margin-top: 0px;
+    
+    
 }
 
 thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
@@ -179,12 +210,14 @@ thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
 
 .expended-row {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    text-align: left;
 }
 
 
 .expended-row .details {
     margin-right: 50px;
+    margin-left: 30px;
 }
 
 .vue3-easy-data-table__body td .expand-icon {
@@ -200,12 +233,7 @@ tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(2) {
     text-align: left;
 }
 
-.usage-filter.count-box {
-    background: white;
-    padding: 1px 15px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
+
 </style>
 
 <script lang="ts">
@@ -280,10 +308,6 @@ export default defineComponent({
     methods: {
         resetData(){
             location.reload();
-            // this.subCat = '';
-            // this.searchValue = '';
-            // this.resetOption = true;
-            // this.fetchData();
         },
         filterData(subCat: String) {
             this.items = this.mainData;
@@ -407,8 +431,8 @@ export default defineComponent({
                 sortable: true,
             },
             {
-                text: "Tool",
-                value: "tool",
+                text: "Classification",
+                value: "classification",
                 sortable: true,
             },
             {
@@ -417,8 +441,8 @@ export default defineComponent({
                 sortable: true,
             },
             {
-                text: "Classification",
-                value: "classification",
+                text: "Tool",
+                value: "tool",
                 sortable: true,
             },
             {
