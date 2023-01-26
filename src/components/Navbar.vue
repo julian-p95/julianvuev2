@@ -10,7 +10,7 @@
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
         >Julian PASSEBECQ - 27 y.o</span>
-        <h1 class="title4">English C1, German B1, French Native </h1>
+       
       
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
         <button
@@ -63,18 +63,7 @@
   
 }
 
-.title4 {
-  
-  font-size: 10px;
-  position: relative;
-  left: -240px;
-  bottom: -25px;
-  color:white;
-  font-family: "Anvir", serif;
-  margin-top: -10px;
-  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-}
+
 
 #nav-title {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
