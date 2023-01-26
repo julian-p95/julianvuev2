@@ -64,9 +64,10 @@
 }
 
 .title4 {
+  
   font-size: 10px;
   position: relative;
-  left:-200px;
+  left: -240px;
   bottom: -25px;
   color:white;
   font-family: "Anvir", serif;
