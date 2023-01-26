@@ -65,7 +65,7 @@
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
-  font-size: 17px;
+  font-size: 16px;
   
 }
 #navbar {

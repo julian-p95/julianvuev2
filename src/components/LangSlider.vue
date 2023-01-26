@@ -185,24 +185,15 @@ hr.border2 {
 }
 
 .title1 {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -15px;
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 15px;
 
 }
 
-.title3 {
-  font-size: 12px;
-  margin-top: -15px;
-  margin-bottom: 0px;
-  text-align: left;
-  color: #fff;
-  margin-left: 20px;
-
-}
 
 
 .tit0 {
@@ -217,12 +208,12 @@ hr.border2 {
  
 }
 .title2 {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -15px;
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 15px;
  
 }
 
