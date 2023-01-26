@@ -187,7 +187,7 @@ hr.border2 {
   font-size: 10px;
   margin-top: -20px;
   margin-bottom: 0px;
-  text-align: left;
+  text-align: center;
   color: #fff;
   margin-left: 10px;
 
@@ -210,7 +210,7 @@ hr.border2 {
   font-size: 10px;
   margin-top: -20px;
   margin-bottom: 0px;
-  text-align: right;
+  text-align: center;
   color: #fff;
   margin-right: 10px;
  
