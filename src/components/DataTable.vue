@@ -221,7 +221,7 @@ thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
 
 .expended-row .details {
     margin-right: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .vue3-easy-data-table__body td .expand-icon {

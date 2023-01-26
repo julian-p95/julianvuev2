@@ -175,10 +175,9 @@ hr.border2 {
 }
 
 
-
 .data_heading {
   font-size: 16px;
-  margin-top: -30px;
+  margin-top: -20px;
   margin-bottom: 0px;
   color: #fff;
   text-decoration: underline;
@@ -265,7 +264,7 @@ hr.border2 {
 
 .single-category p.category-name {
   color: wheat;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 graph_one {
