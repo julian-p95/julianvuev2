@@ -110,11 +110,11 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 3px 6px;
+    padding: 1px 5px;
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 .sortable.none .sortType-icon {
