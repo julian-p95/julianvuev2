@@ -158,11 +158,11 @@
 <style>
 
 hr.border1 {
-border-top: 1px dashed rgb(255, 255, 255);
+border-top: 0.5px dashed rgb(255, 255, 255);
 }
 
 hr.border2 {
-  border-top: 1px dashed rgb(255, 255, 255);
+  border-top: 0.5px dashed rgb(255, 255, 255);
   }
   
 
