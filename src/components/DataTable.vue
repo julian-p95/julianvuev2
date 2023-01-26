@@ -107,11 +107,12 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 1px 6px;
+    padding: 3px 6px;
     border-radius: 5px;
     margin-right: 4px;
     margin-top: -42px;
     margin-bottom: 15px;
+    font-size: 25px;
 }
 .sortable.none .sortType-icon {
     display: none !important;
@@ -132,15 +133,15 @@
 }
 
 .data-table {
-    --easy-table-border: 1px solid #445269;
-    --easy-table-row-border: 1px solid #445269;
+    --easy-table-border: 4px solid #445269;
+    --easy-table-row-border: 2px solid #445269;
 
     --easy-table-header-font-size: 14px;
-    --easy-table-header-height: 50px;
+    --easy-table-header-height: 10px;
     --easy-table-header-font-color: #ffffff;
     --easy-table-header-background-color: #0c173c;
 
-    --easy-table-header-item-padding: 10px 15px;
+    --easy-table-header-item-padding: 5px 15px;
 
     --easy-table-body-even-row-font-color: #ffffff;
     --easy-table-body-even-row-background-color: #0f234b;
@@ -148,13 +149,13 @@
     --easy-table-body-row-font-color: #ffffff;
     --easy-table-body-row-background-color: #0f234b;
 
-    --easy-table-body-row-height: 40px;
-    --easy-table-body-row-font-size: 14px;
+    --easy-table-body-row-height: 0px;
+    --easy-table-body-row-font-size: 18px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 10px 15px;
+    --easy-table-body-item-padding: 5px 15px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
