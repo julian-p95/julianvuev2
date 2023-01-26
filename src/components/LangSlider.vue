@@ -190,7 +190,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: left;
   color: #fff;
-  margin-left: 15px;
+  margin-left: 10px;
 
 }
 
@@ -213,7 +213,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: right;
   color: #fff;
-  margin-right: 15px;
+  margin-right: 10px;
  
 }
 
