@@ -90,8 +90,10 @@
 
 <style> 
 
+
+
 .Software_heading {
-    font-size: 35px;
+    font-size: 30px;
     color: #fff;
     
     margin-top: -40px;
@@ -114,7 +116,7 @@
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 25px;
 }
 .sortable.none .sortType-icon {
