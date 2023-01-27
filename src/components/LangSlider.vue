@@ -189,7 +189,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: center;
   color: #fff;
-  margin-left: 5px;
+  margin-left: 3px;
 
 }
 
@@ -212,7 +212,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: center;
   color: #fff;
-  margin-right: 5px;
+  margin-right: 3px;
   
  
 }
@@ -316,7 +316,7 @@ graph_one {
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 30px;
+  width: 25px;
   margin: 7px;
 }
 .graph_one td {
