@@ -93,7 +93,7 @@
 
 
 .Software_heading {
-    font-size: 26px;
+    font-size: 24px;
     color: #fff;
     
     margin-top: -40px;
@@ -101,7 +101,7 @@
   }
 
   .Software_heading2 {
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
     
     margin-top: -3px;
