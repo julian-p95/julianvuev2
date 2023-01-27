@@ -3,42 +3,7 @@
 
     
     
-    <div class="graph_one">
-      <h1 class="title1"><u>BACHELOR</u> <br/> +MATHEMATICS <br/>  +INFORMATICS<br/> -STATISTICS  <br/>-PHYSICS  </h1>
-      
-       
-      
-      <table
-        id="animations-example-6"
-        class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis"
-      >
-        <tbody>
-          <tr>
-            <th scope="row">BI</th>
-            <td class="td_one"></td>
-          </tr>
-          <tr>
-            <th scope="row">SQL</th>
-            <td class="td_two"></td>
-          </tr>
-          <tr>
-            <th scope="row">ETL</th>
-            <td class="td_three"></td>
-          </tr>
-          <tr>
-            <th scope="row">DATA</th>
-            <td class="td_four"></td>
-          </tr>
-          <tr>
-            <th scope="row">CLOUD</th>
-            <td class="td_five"></td>
-          </tr>
-         
-        </tbody> 
-      </table> 
-     <h1 class="title2"><u>MASTER</u> <br/>+ENGINEER <br/>+ELECTRICITY<br/>-DATA VIZ <br/>-BIG DATA </h1>
-       
-    </div>   
+    
     <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
     <div class="tit">
       
@@ -166,13 +131,7 @@ hr.border2 {
   }
   
 
-.graph_one {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 10px;
-  
-}
+
 
 
 .data_heading {
@@ -268,78 +227,7 @@ hr.border2 {
   font-size: 15px;
 }
 
-graph_one {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
 
-#animations-example-6 {
-  height: 100px;
-  max-width: 300px;
-  margin: 0 auto;
-}
-#animations-example-6 td {
-  background-image: linear-gradient(
-    45deg,
-    #beffe7,
-    #f8beff,
-    #fff1be,
-    #beecff,
-    #e5d3ff,
-    #ffd3d3
-  );
-  background-size: 600%;
-  animation: gradient-animation 3s linear infinite alternate;
-}
-@keyframes gradient-animation {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
-}
-.graph_one {
-  margin-top: -47px;
-  margin-bottom: 30px;
-}
-.graph_one th {
-  color: #fff;
-  margin-top: 3px;
-  font-style: italic;
-  font-weight: 200;
-  font-size: 10px;
-}
-.graph_one tr {
-  display: flex !important;
-  flex-direction: column-reverse !important;
-  width: 25px;
-  margin: 7px;
-}
-.graph_one td {
-  border: 1px solid #fff;
-}
-.graph_one .td_one {
-  height: 55px;
-}
-.graph_one .td_two {
-  height: 40px;
-}
-.graph_one .td_three {
-  height: 35px;
-}
-.graph_one .td_four {
-  height: 50px;
-}
-.graph_one .td_five {
-  height: 35px;
-}
-.graph_one tbody {
-  display: flex !important;
-}
 
 div#swiper-buttons button svg {
   height: 15px;

@@ -89,11 +89,11 @@ graph_one {
   background-image: linear-gradient(
     45deg,
     #000000,
-    #000000,
-    rgb(0, 0, 0),
-    #000000,
-    #000000,
-    #000000
+    #bc0000,
+    rgb(6, 42, 246),
+    #5d00ff,
+    #ff6600,
+    #308200
   );
 
 
@@ -111,38 +111,38 @@ graph_one {
 }
 .graph_one {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -5px;
 }
 .graph_one th {
   color: #fff;
   margin-top: 0px;
   font-style: italic;
   font-weight: 200;
-  font-size: 10px;
+  font-size: 9px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
   width: 25px;
-  margin: px;
+  margin: 5px;
 }
 .graph_one td {
   border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 55px;
+  height: 35px;
 }
 .graph_one .td_two {
-  height: 40px;
+  height: 20px;
 }
 .graph_one .td_three {
-  height: 35px;
+  height: 15px;
 }
 .graph_one .td_four {
-  height: 50px;
+  height: 30px;
 }
 .graph_one .td_five {
-  height: 35px;
+  height: 15px;
 }
 .graph_one tbody {
   display: flex !important;
