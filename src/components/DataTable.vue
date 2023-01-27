@@ -91,7 +91,7 @@
 <style> 
 
 .Software_heading {
-    font-size: 35px;
+    font-size: 30px;
     color: #fff;
     
     margin-top: -40px;
