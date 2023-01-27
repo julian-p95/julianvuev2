@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        ><u>Julian PASSEBECQ</u><br><br>  Energy Engineer</span>
+        ><u>Julian PASSEBECQ</u><br>  Energy Engineer<br>Data Specialization</span>
        
       
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
@@ -161,7 +161,7 @@ graph_one {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
-  font-size: 13px;
+  font-size: 12px;
   margin-right: 0px;
   margin-left:0px;
   
