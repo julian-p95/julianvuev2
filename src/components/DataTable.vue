@@ -112,7 +112,7 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 0px 2px;
+    padding: 0px 3px;
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
