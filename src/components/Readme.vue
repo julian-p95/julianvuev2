@@ -40,7 +40,7 @@
         <h3>
           Phone / Whatsapp :
           
-          <a href="tel:+33 7 67 42 48 98"><u>+33 7 67 42 48 98</u></a> 
+          <a href="tel:+33 7 67 42 48 98"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
           
         </h3>
         <h3>
@@ -58,7 +58,7 @@
        
       </div>
 
-      <h2 class="text-xl mt-6">- 2017: SAVENCIA, Data Intern</h2>
+      <h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Automation tool on Excel/VBA with SAP Stock/Forecast BI PoC
@@ -67,7 +67,7 @@
         
       </div>
 
-      <h2 class="text-xl mt-6">- 2018/19: TOTAL - Product Owner</h2>
+      <h2 class="text-xl mt-6"><u>- 2018/19: TOTAL - Product Owner</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Power BI PoC, A to Z + Oracle database
@@ -76,7 +76,7 @@
         
       </div>
 
-      <h2 class="text-xl mt-6">- 2020 : Consulting Data PMO</h2>
+      <h2 class="text-xl mt-6"><u>- 2020 : Consulting Data PMO</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Data Analytics, Marketing, GAFA 
@@ -85,7 +85,7 @@
         </h3>
         </div>
 
-      <h2 class="text-xl mt-6">- 2020/21: Startup - Data Engineer</h2>
+      <h2 class="text-xl mt-6"><u>- 2020/21: Startup - Data Engineer</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Aquaponic farm simulation on Azure + ML
@@ -93,7 +93,7 @@
           
         </h3>
         
-        <h2 class="text-xl mt-6">- 2022: Danone,Jr Digital Manager</h2>
+        <h2 class="text-xl mt-6"><u>- 2022: Danone,Jr Digital Manager</u></h2>
         <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           7 Power BI Projects, Azure, Data Analytics
@@ -109,7 +109,7 @@
         
        
       </div>
-      <h2 class="text-xl mt-6">- Bachelor Mathematics Informatics</h2>
+      <h2 class="text-xl mt-6"><u>- Bachelor Mathematics Informatics</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           France 2012-2014 , Database, SQL, R
@@ -117,7 +117,7 @@
         </h3>
         
       </div>
-      <h2 class="text-xl mt-6">- Master of Science - Engineering</h2>
+      <h2 class="text-xl mt-6"><u>- Master of Science - Engineering</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Major - Energy, Renewable, Optic Fiber
