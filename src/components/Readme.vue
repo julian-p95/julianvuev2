@@ -35,7 +35,7 @@
          <h3>
           Professional Github :
            
-           <a href="https://github.com/julian-p95"><u>Julian-p95</u></a> 
+           <a href="https://github.com/julian-p95" target="_blank"><u>Julian-p95</u></a> 
          </h3>
         <h3>
           Phone / Whatsapp :
