@@ -213,6 +213,7 @@ hr.border2 {
   text-align: center;
   color: #fff;
   margin-right: 10px;
+  font-family: "Anvir";
  
 }
 

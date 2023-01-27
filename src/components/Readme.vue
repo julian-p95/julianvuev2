@@ -23,7 +23,7 @@
         Julian
       </h1>
       </div>
-      <h2 class="text-2xl mt-8 font-bold text-white">CONTACT - FOR NEW JOB</h2>
+      <h2 class="text-2xl mt-8 font-bold text-white">CONTACT & CV</h2>
       <div class="ml-2 md:ml-4">
         
         <h3>
@@ -37,21 +37,34 @@
           
             julian.passebecq@gmail.com 
         </h3>
+        <h3>
+          CV : 
+        </h3>
       </div>
-      <h2 class="text-2xl mt-8 font-bold text-white">WORK EXP - 2018-2022</h2>
+      <h2 class="text-2xl mt-8 font-bold text-white">WORK EXP - 2017->2022</h2>
       <div class="ml-2 md:ml-4">
         
        
       </div>
-      <h2 class="text-xl mt-6">- 2018/19: TOTAL, Product Owner</h2>
+
+      <h2 class="text-xl mt-6">- 2017: SAVENCIA, Data Intern</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          Power BI PoC, A to Z + Oracla database
+          Automation tool on Excel/VBA with SAP Stock/Forecast BI PoC
           
         </h3>
         
       </div>
-      <h2 class="text-xl mt-6">- 2020/21: Startup, Data Engineer</h2>
+
+      <h2 class="text-xl mt-6">- 2018/19: TOTAL - Product Owner</h2>
+      <div class="ml-2 md:ml-4">
+        <h3 class="mt-2">
+          Power BI PoC, A to Z + Oracle database
+          
+        </h3>
+        
+      </div>
+      <h2 class="text-xl mt-6">- 2020/21: Startup - Data Engineer</h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           Aquaponic farm simulation on Azure + ML
@@ -59,7 +72,7 @@
           
         </h3>
         
-        <h2 class="text-xl mt-6">- 2022: Danone, Digital Manager</h2>
+        <h2 class="text-xl mt-6">- 2022: Danone,Jr Digital Manager</h2>
         <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
           7 Power BI Projects, Azure, Data Analytics
