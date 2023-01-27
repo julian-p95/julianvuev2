@@ -116,7 +116,7 @@
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     font-size: 28px;
 }
 .sortable.none .sortType-icon {
