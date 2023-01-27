@@ -138,15 +138,15 @@
 }
 
 .data-table {
-    --easy-table-border: 4px solid #445269;
-    --easy-table-row-border: 2px solid #445269;
+    --easy-table-border: 6px solid #445269;
+    --easy-table-row-border: 3px solid #445269;
 
     --easy-table-header-font-size: 14px;
     --easy-table-header-height: 10px;
     --easy-table-header-font-color: #ffffff;
     --easy-table-header-background-color: #0c173c;
 
-    --easy-table-header-item-padding: 5px 15px;
+    --easy-table-header-item-padding: 3px 15px;
 
     --easy-table-body-even-row-font-color: #ffffff;
     --easy-table-body-even-row-background-color: #0f234b;
@@ -160,7 +160,7 @@
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 5px 15px;
+    --easy-table-body-item-padding: 3px 10px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
