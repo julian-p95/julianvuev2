@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        >Julian PASSEBECQ - 27 Y.O</span>
+        >Julian PASSEBECQ</span>
        
       
       <div class="w-auto text-white py-2.5" id="navbar-buttons">
@@ -17,17 +17,10 @@
           @click="showReadme"
           class="nav-button text-sm sm:text-lg bg-white hover:bg-black hover:text-white text-black font-bold py-1 px-2 md:px-4 rounded inline-flex items-center mr-2.5"
         >
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="mr-1.5 nav-icon w-4 h-4 lg:w-6 lg:h-6"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 18.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25c.691 0 1.25.56 1.25 1.25s-.559 1.25-1.25 1.25zm1.961-5.928c-.904.975-.947 1.514-.935 2.178h-2.005c-.007-1.475.02-2.125 1.431-3.468.573-.544 1.025-.975.962-1.821-.058-.805-.73-1.226-1.365-1.226-.709 0-1.538.527-1.538 2.013h-2.01c0-2.4 1.409-3.95 3.59-3.95 1.036 0 1.942.339 2.55.955.57.578.865 1.372.854 2.298-.016 1.383-.857 2.291-1.534 3.021z"
-        />
-      </svg>
+        <svg  xmlns="http://www.w3.org/2000/svg" class="mr-1.5 nav-icon w-4 h-4 lg:w-6 lg:h-6"
+        viewBox="0 0 24 24"> ><path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-3 17h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"/></svg>
           
-          <span class="mt-1">CV - 4YR EXP</span>
+          <span class="mt-1">4YR EXP</span>
         </button>
         <a
           href="https://www.linkedin.com/in/julian-p95/"
