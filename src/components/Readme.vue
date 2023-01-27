@@ -36,18 +36,18 @@
           Professional Github :
            
            <a href="https://github.com/julian-p95" target="_blank"><u>Julian-p95</u></a> 
-         </h3>
+         </h3><h3>
+         Email :
+          
+          <a href="mailto:julian.passebecq@gmail.com"><u>julian.passebecq@gmail.com</u></a> 
+        </h3>
         <h3>
           Phone / Whatsapp :
           
           <a href="tel:+33 7 67 42 48 98"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
           
         </h3>
-        <h3>
-         Email :
-          
-          <a href="mailto:julian.passebecq@gmail.com"><u>julian.passebecq@gmail.com</u></a> 
-        </h3>
+        
 
         
        
@@ -58,40 +58,6 @@
        
       </div>
 
-      <h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Automation tool on Excel/VBA with SAP Stock/Forecast BI PoC
-          
-        </h3>
-        
-      </div>
-
-      <h2 class="text-xl mt-6"><u>- 2018/19: TOTAL - Product Owner</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Power BI PoC, A to Z + Oracle database
-          
-        </h3>
-        
-      </div>
-
-      <h2 class="text-xl mt-6"><u>- 2020 : Consulting Data PMO</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Data Analytics, Marketing, GAFA 
-         
-          
-        </h3>
-        </div>
-
-      <h2 class="text-xl mt-6"><u>- 2020/21: Startup - Data Engineer</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Aquaponic farm simulation on Azure + ML
-         
-          
-        </h3>
         
         <h2 class="text-xl mt-6"><u>- 2022: Danone,Jr Digital Manager</u></h2>
         <div class="ml-2 md:ml-4">
@@ -100,39 +66,42 @@
          
           
         </h3>
-       
-        
-      </div>
 
-      <h2 class="text-2xl mt-8 font-bold text-white">EDUCATION : 2012-2018</h2>
-      <div class="ml-2 md:ml-4">
-        
-       
-      </div>
-      <h2 class="text-xl mt-6"><u>- Bachelor Mathematics Informatics</u></h2>
+       <h2 class="text-xl mt-6"><u>- 2020/21: Startup - Data Engineer</u></h2>
       <div class="ml-2 md:ml-4">
         <h3 class="mt-2">
-          France 2012-2014 , Database, SQL, R
-          
-        </h3>
-        
-      </div>
-      <h2 class="text-xl mt-6"><u>- Master of Science - Engineering</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Major - Energy, Renewable, Optic Fiber
+          Aquaponic farm simulation on Azure + ML
          
           
         </h3>
-        
-         <h3 class="mt-2">
+
+        <h2 class="text-xl mt-6"><u>- 2020: Consulting Data PMO</u></h2>
+      <div class="ml-2 md:ml-4">
+        <h3 class="mt-2">
+          Data Analytics, Marketing, GAFA 
+         
           
-          Minor - Big Data, Open Data, Analytics
+        </h3>
+        </div> 
+        
+        <h2 class="text-xl mt-6"><u>- 2018/19: TOTAL - Product Owner</u></h2>
+      <div class="ml-2 md:ml-4">
+        <h3 class="mt-2">
+          Power BI PoC, A to Z + Oracle database
           
         </h3>
         
+      </div><h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
+      <div class="ml-2 md:ml-4">
+        <h3 class="mt-2">
+          Automation tool on Excel/VBA with SAP Stock/Forecast BI PoC
+          
+        </h3>
         
       </div>
+      </div>
+
+      
       
     </div>
     <button

@@ -189,7 +189,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: center;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 5px;
 
 }
 
@@ -212,7 +212,7 @@ hr.border2 {
   margin-bottom: 0px;
   text-align: center;
   color: #fff;
-  margin-right: 10px;
+  margin-right: 5px;
   
  
 }
@@ -278,7 +278,7 @@ graph_one {
 
 #animations-example-6 {
   height: 100px;
-  max-width: 350px;
+  max-width: 300px;
   margin: 0 auto;
 }
 #animations-example-6 td {
@@ -316,7 +316,7 @@ graph_one {
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 35px;
+  width: 30px;
   margin: 7px;
 }
 .graph_one td {
