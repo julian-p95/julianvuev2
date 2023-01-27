@@ -37,7 +37,7 @@
            
            <a href="https://github.com/julian-p95" target="_blank"><u>Julian-p95</u></a> 
          </h3><h3>
-         Email :
+          Email :
           
           <a href="mailto:julian.passebecq@gmail.com"><u>julian.passebecq@gmail.com</u></a> 
         </h3>
