@@ -93,7 +93,7 @@
 
 
 .Software_heading {
-    font-size: 25px;
+    font-size: 28px;
     color: #fff;
     
     margin-top: -40px;
@@ -112,12 +112,12 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 1px 5px;
+    padding: -1px 4px;
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 28px;
 }
 .sortable.none .sortType-icon {
     display: none !important;
