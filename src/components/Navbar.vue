@@ -27,7 +27,7 @@
         />
       </svg>
           
-          <span class="mt-1">CV - 4YR Exp</span>
+          <span class="mt-1">CV - 4YR EXP</span>
         </button>
         <a
           href="https://www.linkedin.com/in/julian-p95/"
@@ -76,7 +76,7 @@
 }
 #navbar {
   background-color: #87ccfacd;
-  height: 60px;
+  
 }
 .nav-button:hover .nav-icon {
   fill: #ffffff;
