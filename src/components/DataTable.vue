@@ -101,7 +101,7 @@
   }
 
   .Software_heading2 {
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
     
     margin-top: -3px;
@@ -112,7 +112,7 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: -1px 4px;
+    padding: 0px 4px;
     border-radius: 5px;
     margin-right: 5px;
     margin-top: -30px;
