@@ -87,13 +87,13 @@ graph_one {
 
 #animations-example-6 td {
   background-image: linear-gradient(
-    45deg,
+    90deg,
     #000000,
-    #bc0000,
-    rgb(6, 42, 246),
-    #5d00ff,
-    #ff6600,
-    #308200
+    #6c6969,
+    #7d9bfe,
+    #a068ff,
+    #ce6621,
+    #abafa9
   );
 
 
