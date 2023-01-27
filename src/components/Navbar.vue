@@ -163,7 +163,7 @@ graph_one {
   font-family: "Anvir", serif;
   font-size: 12px;
   margin-right: 0px;
-  margin-left:0px;
+  margin-left:-10px;
   
 }
 #navbar {
