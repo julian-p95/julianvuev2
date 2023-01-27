@@ -33,16 +33,16 @@
          </h3>
 
          <h3>
-          Professional Github :
+          <br>Professional Github :
            
            <a href="https://github.com/julian-p95" target="_blank"><u>Julian-p95</u></a> 
          </h3><h3>
-         Email :
+          <br>Email :
           
           <a href="mailto:julian.passebecq@gmail.com"><u>julian.passebecq@gmail.com</u></a> 
         </h3>
         <h3>
-          Phone / Whatsapp :
+          <br>Phone / Whatsapp :
           
           <a href="tel:+33 7 67 42 48 98"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
           
