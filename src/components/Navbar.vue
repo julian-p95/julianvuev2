@@ -162,8 +162,8 @@ graph_one {
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
   font-size: 16px;
-  margin-right: -50px;
-  margin-left:50px;
+  margin-right: -100px;
+  margin-left:-20px;
   
 }
 #navbar {
