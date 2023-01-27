@@ -4,7 +4,7 @@
     
     
     <div class="graph_one">
-      <h1 class="title1"><u>BACHELOR</u> <br/> +Mathematics <br/>  +Informatics <br/> -Statistics  <br/>-Physics  </h1>
+      <h1 class="title1"><u>BACHELOR</u> <br/> +MATHEMATICS <br/>  +INFORMATICS<br/> -STATISTICS  <br/>-PHYSICS  </h1>
       
        
       
@@ -36,7 +36,7 @@
          
         </tbody> 
       </table> 
-     <h1 class="title2"><u>MASTER</u> <br/>+Engineer <br/>+Electricity<br/>-Data Viz <br/>-Big Data </h1>
+     <h1 class="title2"><u>MASTER</u> <br/>+ENGINEER <br/>+ELECTRICITY<br/>-DATA VIZ <br/>-BIG DATA </h1>
        
     </div>   
     <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
@@ -213,7 +213,7 @@ hr.border2 {
   text-align: center;
   color: #fff;
   margin-right: 10px;
-  font-family: "Anvir";
+  
  
 }
 
