@@ -162,8 +162,8 @@ graph_one {
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
   font-size: 15px;
-  margin-right: 10px;
-  margin-left:5px;
+  margin-right: 15px;
+  margin-left:0px;
   text-align:left;
   
 }
