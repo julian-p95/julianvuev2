@@ -156,7 +156,7 @@ hr.border2 {
 
 .tit0 {
   font-size: 13px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 0px; 
   text-align: center;
   color: #fff;
