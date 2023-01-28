@@ -161,9 +161,10 @@ graph_one {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
-  font-size: 13px;
-  margin-right: 20px;
-  margin-left:10px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left:5px;
+  text-align:left;
   
 }
 #navbar {
