@@ -60,50 +60,25 @@
 
         
         <h2 class="text-xl mt-6"><u>- 2022: Danone,Jr Digital Manager</u></h2>
-        <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          7 Power BI Projects, Azure, Data Analytics
-         
-          
-        </h3>
+        
 
        <h2 class="text-xl mt-6"><u>- 2020/21: Startup - Data Engineer</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Aquaponic farm simulation on Azure + ML
-         
-          
-        </h3>
+      
+        
 
         <h2 class="text-xl mt-6"><u>- 2020: Consulting Data PMO</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Data Analytics, Marketing, GAFA 
-         
-          
-        </h3>
-        </div> 
+      
         
         <h2 class="text-xl mt-6"><u>- 2018/19: TOTAL - Product Owner</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Power BI PoC, A to Z + Oracle database
-          
-        </h3>
+      
         
-      </div><h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
-      <div class="ml-2 md:ml-4">
-        <h3 class="mt-2">
-          Automation tool on Excel/VBA with SAP Stock/Forecast BI PoC
-          
-        </h3>
-        
-      </div>
-      </div>
+      <h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
+     
+      
 
       
       
-    </div>
+   
     <button
       @click="closed"
       class="absolute top-0 right-2 mt-2 mr-2 text-2xl sm:text-base"
