@@ -90,9 +90,9 @@ graph_one {
     90deg,
     #000000,
     #6c6969,
-    #7d9bfe,
-    #a068ff,
-    #ce6621,
+    #90aaff,
+    #9c62ff,
+    #0000009b,
     #abafa9
   );
 
