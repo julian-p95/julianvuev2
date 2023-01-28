@@ -112,7 +112,7 @@ graph_one {
 .graph_one {
   margin-top: 0px;
   margin-bottom: -5px;
-  margin-left:-30px;
+  margin-left:-25px;
   margin-right:-10px;
 }
 .graph_one th {
