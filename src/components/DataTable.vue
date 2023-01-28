@@ -239,6 +239,26 @@ tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(2) {
     text-align: left;
 }
 
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(3) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(4) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(5) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(6) {
+    text-align: left;
+}
+
+
 
 </style>
 
