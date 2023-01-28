@@ -59,20 +59,20 @@
       </div>
 
         
-        <h2 class="text-xl mt-6"><u>- 2022: Danone,Jr Digital Manager</u></h2>
+        <h2 class="text-xl mt-6"><u>2022: Danone,Jr Digital Manager</u></h2>
         
 
-       <h2 class="text-xl mt-6"><u>- 2020/21: Startup - Data Engineer</u></h2>
+       <h2 class="text-xl mt-6"><u>2020/21: Startup - Data Engineer</u></h2>
       
         
 
-        <h2 class="text-xl mt-6"><u>- 2020: Consulting Data PMO</u></h2>
+        <h2 class="text-xl mt-6"><u>2020: Consulting Data PMO</u></h2>
       
         
-        <h2 class="text-xl mt-6"><u>- 2018/19: TOTAL - Product Owner</u></h2>
+        <h2 class="text-xl mt-6"><u>2018/19: TOTAL - Product Owner</u></h2>
       
         
-      <h2 class="text-xl mt-6"><u>- 2017: SAVENCIA, Data Intern</u></h2>
+      <h2 class="text-xl mt-6"><u>2017: SAVENCIA, Data Intern</u></h2>
      
       
 
