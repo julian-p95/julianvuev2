@@ -112,7 +112,7 @@ graph_one {
 .graph_one {
   margin-top: 0px;
   margin-bottom: -5px;
-  margin-left:-15px;
+  margin-left:-20px;
   margin-right:-10px;
 }
 .graph_one th {
@@ -162,7 +162,7 @@ graph_one {
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
   font-size: 15px;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-left:0px;
   text-align:left;
   
