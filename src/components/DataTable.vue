@@ -213,6 +213,20 @@ thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
     justify-content: left !important;
 }
 
+thead.vue3-easy-data-table__header tr th:nth-child(3)>span {
+    justify-content: left !important;
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(4)>span {
+    justify-content: left !important;
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(5)>span {
+    justify-content: left !important;
+}
+thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
+    justify-content: left !important;
+}
 
 .expended-row {
     display: flex;
