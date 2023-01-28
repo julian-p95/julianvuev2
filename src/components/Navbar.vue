@@ -112,8 +112,8 @@ graph_one {
 .graph_one {
   margin-top: 0px;
   margin-bottom: -5px;
-  margin-left:-10px;
-  margin-right:-5px;
+  margin-left:-15px;
+  margin-right:0px;
 }
 .graph_one th {
   color: #fff;
