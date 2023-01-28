@@ -120,7 +120,7 @@ graph_one {
   margin-top: 0px;
   font-style: italic;
   font-weight: 200;
-  font-size: 7px;
+  font-size: 6px;
 }
 .graph_one tr {
   display: flex !important;
