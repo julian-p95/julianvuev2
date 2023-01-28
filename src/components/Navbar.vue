@@ -161,8 +161,8 @@ graph_one {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
-  font-size: 15px;
-  margin-right: 2px;
+  font-size: 14px;
+  margin-right: 2.5px;
   margin-left:0px;
   text-align:left;
   
