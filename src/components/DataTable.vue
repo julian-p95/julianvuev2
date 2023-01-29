@@ -78,9 +78,9 @@
     padding: 0px 3px;
     border-radius: 10px;
     margin-right: 225px;
-    margin-top: -650px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-top: -600px;
+    margin-bottom: 13px;
+    font-size: 15px;
 }
 .sortable.none .sortType-icon {
     display: none !important;

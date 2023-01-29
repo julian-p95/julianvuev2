@@ -130,7 +130,7 @@
   font-size: 24px;
   color: #fff;
   
-  margin-top: -35px;
+  margin-top: -45px;
   margin-bottom: 30px;
 }
 
