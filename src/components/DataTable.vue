@@ -26,26 +26,7 @@
           focus:outline-none focus:bg-white focus:border-gray-500
         " id="grid-state" />
         </div>
-        <div class="usage-filter second-filter">
-            <select @change="filterData(subCat)" v-model="subCat" class="
-          block
-          appearance-none
-          bg-gray-200
-          border border-gray-200
-          text-gray-700
-          py-3
-          px-4
-          pr-8
-          rounded
-          leading-tight
-          focus:outline-none focus:bg-white focus:border-gray-500
-        " id="grid-state">
-                <option value="">Context</option>
-                <option value="university">University</option>
-                <option value="work">Work</option>
-                <option value="personal">Personal</option>
-            </select>
-        </div>
+       
         
         <div class="
           pointer-events-none
