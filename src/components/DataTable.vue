@@ -82,7 +82,7 @@
     font-size: 10px;
     color: #fff;
     
-    margin-top: 0px;
+    margin-top: -3px;
     margin-bottom: 0px;
   }
 
@@ -96,7 +96,7 @@
     padding: 0px 3px;
     border-radius: 0px;
     margin-right: 225px;
-    margin-top: -35px;
+    margin-top: -32px;
     margin-bottom: 13px;
     font-size: 20px;
 }
