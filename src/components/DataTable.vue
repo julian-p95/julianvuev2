@@ -4,11 +4,7 @@
         <div class="usage-filter count-box">
             {{ items.length }}
         </div>
-        <div class="titl">
-            <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
-            <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
-            
-        </div>
+        
     </div>
     <div class="relative filter-section  mb-4">
         <div class="usage-filter">
@@ -73,21 +69,7 @@
 
 
 
-.Software_heading {
-    font-size: 24px;
-    color: #fff;
-    
-    margin-top: -40px;
-    margin-bottom: 0px;
-  }
 
-  .Software_heading2 {
-    font-size: 13px;
-    color: #fff;
-    
-    margin-top: -3px;
-    margin-bottom: 0px;
-  }
 
  
 
@@ -95,10 +77,10 @@
     background: white;
     padding: 0px 3px;
     border-radius: 10px;
-    margin-right: 5px;
-    margin-top: -30px;
+    margin-right: 225px;
+    margin-top: -650px;
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 20px;
 }
 .sortable.none .sortType-icon {
     display: none !important;

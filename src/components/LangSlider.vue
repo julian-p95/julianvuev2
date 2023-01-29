@@ -1,7 +1,11 @@
 <template>
   <div class="my-12">
 
-    
+    <div class="titl">
+      <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
+      <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
+      
+  </div>
     
     
     <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
@@ -121,6 +125,22 @@
 </template>
 
 <style>
+
+.Software_heading {
+  font-size: 24px;
+  color: #fff;
+  
+  margin-top: -35px;
+  margin-bottom: 30px;
+}
+
+.Software_heading2 {
+  font-size: 13px;
+  color: #fff;
+  
+  margin-top: -3px;
+  margin-bottom: 0px;
+}
 
 hr.border1 {
 border-top: 0.5px dashed rgb(255, 255, 255);
