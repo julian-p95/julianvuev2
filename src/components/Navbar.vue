@@ -132,19 +132,19 @@ graph_one {
   border: 1px solid #fff;
 }
 .graph_one .td_one {
-  height: 55px;
+  height: 35px;
 }
 .graph_one .td_two {
-  height: 40px;
+  height: 20px;
 }
 .graph_one .td_three {
-  height: 35px;
+  height: 15px;
 }
 .graph_one .td_four {
-  height: 50px;
+  height: 30px;
 }
 .graph_one .td_five {
-  height: 35px;
+  height: 15px;
 }
 .graph_one tbody {
   display: flex !important;

@@ -1,5 +1,8 @@
 <template>
 <div class="w-full mb-6 md:mb-0">
+
+    <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
+    <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
     <div class="project-details-container">
         <div class="usage-filter count-box">
             {{ items.length }}
@@ -67,6 +70,21 @@
 
 <style> 
 
+.Software_heading {
+    font-size: 24px;
+    color: #fff;
+    
+    margin-top: -35px;
+    margin-bottom: 0px;
+  }
+  
+  .Software_heading2 {
+    font-size: 10px;
+    color: #fff;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 
 
 
@@ -76,11 +94,11 @@
 .usage-filter.count-box {
     background: white;
     padding: 0px 3px;
-    border-radius: 10px;
+    border-radius: 0px;
     margin-right: 225px;
-    margin-top: -600px;
+    margin-top: -35px;
     margin-bottom: 13px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .sortable.none .sortType-icon {
     display: none !important;
@@ -143,7 +161,7 @@
 }
 .reset-btn {
     background: white;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .relative.filter-section {
     width: 100%;
