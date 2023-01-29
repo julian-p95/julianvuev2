@@ -224,7 +224,7 @@ hr.border2 {
 
 .single-category p.category-name {
   color: wheat;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 

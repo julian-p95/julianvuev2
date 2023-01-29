@@ -120,12 +120,12 @@ graph_one {
   margin-top: 0px;
   font-style: italic;
   font-weight: 200;
-  font-size: 10px;
+  font-size: 8px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 25px;
+  width: 18px;
   margin: 5px;
 }
 .graph_one td {
@@ -162,13 +162,13 @@ graph_one {
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
   font-size: 15px;
-  margin-right: 0px;
+  margin-right: 23px;
   margin-left:-3px;
   text-align:left;
   
 }
 #navbar {
-  background-color: #ffffffcd;
+  background-color: #a7ccff;
   
 }
 .nav-button:hover .nav-icon {
