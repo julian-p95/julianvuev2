@@ -112,7 +112,7 @@ graph_one {
 .graph_one {
   margin-top: 0px;
   margin-bottom: -5px;
-  margin-left:0px;
+  margin-left:-20px;
   margin-right:-13px;
 }
 .graph_one th {
@@ -120,12 +120,12 @@ graph_one {
   margin-top: 0px;
   font-style: italic;
   font-weight: 200;
-  font-size: 8px;
+  font-size: 6px;
 }
 .graph_one tr {
   display: flex !important;
   flex-direction: column-reverse !important;
-  width: 18px;
+  width: 15px;
   margin: 5px;
 }
 .graph_one td {
@@ -161,9 +161,8 @@ graph_one {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
-  font-size: 15px;
-  margin-right: 23px;
-  margin-left:-3px;
+  font-size: 13px;
+ 
   text-align:left;
   
 }
