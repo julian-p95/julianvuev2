@@ -249,25 +249,29 @@ import { Keyboard, FreeMode, Navigation } from "swiper";
 import "swiper/css";
 
 const CATEGORIESFIRSTLINE = [
-  "excel",
-  "power bi",
-  "sql",
   "python",
+  "power bi",
   "azure",
-  "docker",
+  
   "r",
+  
+  "docker",
+  "big query", 
   "sap",
-  "big query"
+  "excel",
+  "sql"
+  
 ];
 const CATEGORIESSECONDLINE = [
   "data analytics",
-  "data visualization",
   "data engineering",
-  "database",
+  
+  "data visualization",  
   "Statistics",
-  "machine learning",
-  "front end",
   "Web Scraping",
+  "front end",
+  "machine learning",
+  "database"
 ];
 
 function highlightSelected(cat: string) {
