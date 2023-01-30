@@ -1,13 +1,19 @@
 <template>
 <div class="w-full mb-6 md:mb-0">
 
-    <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
-    <h2 class="Software_heading2">Click & Swipe Icons to Filter</h2>
+    
+    
     <div class="project-details-container">
+
+        
         <div class="usage-filter count-box">
             {{ items.length }}
         </div>
-        
+
+        <div class="titl">
+        <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
+        <h2 class="Software_heading2">Swipe & Click icons to filter </h2>
+    </div>
     </div>
     <div class="relative filter-section  mb-4">
         <div class="usage-filter">
@@ -98,31 +104,29 @@
     margin-top: -38px;
     margin-bottom: 0px;
   }
-  
+
   .Software_heading2 {
     font-size: 10px;
     color: #fff;
     
-    margin-top: -3px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    margin-top: -5px;
   }
-
-
+  
 .relative.filter-section{
-    margin-top: -15px;
-    margin-bottom: -15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
-
- 
 
 .usage-filter.count-box {
     background: white;
     padding: 0px 3px;
     border-radius: 0px;
-    margin-right: 225px;
-    margin-top: -30px;
-    margin-bottom: 13px;
-    font-size: 20px;
+    margin-right: 5px;
+    margin-top: -50px;
+    margin-bottom: -10px;
+    font-size: 18px;
 }
 .sortable.none .sortType-icon {
     display: none !important;
@@ -151,7 +155,7 @@
     --easy-table-header-font-color: #ffffff;
     --easy-table-header-background-color: #0c173c;
 
-    --easy-table-header-item-padding: 3px 5px;
+    --easy-table-header-item-padding: 3px 10px;
 
     --easy-table-body-even-row-font-color: #ffffff;
     --easy-table-body-even-row-background-color: #0f234b;
@@ -160,12 +164,12 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 10px;
+    --easy-table-body-row-font-size: 1px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 0px 10px;
+    --easy-table-body-item-padding: 5px 10px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
@@ -246,8 +250,8 @@ thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
 }
 
 .vue3-easy-data-table__body td .expand-icon {
-    border-width: 1 3px 3px 0 !important;
-    padding: 6px !important;
+    border-width: 0 6px 6px 0 !important;
+    padding: 5px !important;
 }
 
 tbody.vue3-easy-data-table__body.row-alternation tr td {
