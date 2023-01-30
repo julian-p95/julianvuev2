@@ -17,7 +17,7 @@
           bg-gray-200
           border border-gray-200
           text-gray-700
-          py-3
+          py-1
           px-4
           pr-8
           rounded
@@ -26,7 +26,7 @@
         " id="grid-state" />
         </div>
 
-        <div class="usage-filter second-filter">
+         <div class="usage-filter second-filter">
             <select @change="filterData(subCat)" v-model="subCat" class="
           block
           appearance-none
