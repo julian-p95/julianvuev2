@@ -249,18 +249,20 @@ import { Keyboard, FreeMode, Navigation } from "swiper";
 import "swiper/css";
 
 const CATEGORIESFIRSTLINE = [
-  "python",
-  "power bi",
+ 
   "ms azure",
+  "Database",
   "Big Data",
   "R Stats",
   
   
    
-  "SQL ddb",
+ 
   "Excel VBA",
   "Auto ML",
-  "Cloud Docker"
+  "Docker"
+  "python",
+  "power bi",
   
 ];
 const CATEGORIESSECONDLINE = [
