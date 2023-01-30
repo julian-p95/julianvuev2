@@ -25,6 +25,27 @@
           focus:outline-none focus:bg-white focus:border-gray-500
         " id="grid-state" />
         </div>
+
+        <div class="usage-filter second-filter">
+            <select @change="filterData(subCat)" v-model="subCat" class="
+          block
+          appearance-none
+          bg-gray-200
+          border border-gray-200
+          text-gray-700
+          py-3
+          px-4
+          pr-8
+          rounded
+          leading-tight
+          focus:outline-none focus:bg-white focus:border-gray-500
+        " id="grid-state">
+                <option value="">Context</option>
+                <option value="university">University</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+            </select>
+        </div>
        
         
         <div class="
@@ -139,7 +160,7 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 18px;
+    --easy-table-body-row-font-size: 16px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
@@ -225,8 +246,8 @@ thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
 }
 
 .vue3-easy-data-table__body td .expand-icon {
-    border-width: 0 6px 6px 0 !important;
-    padding: 5px !important;
+    border-width: 0 3px 3px 0 !important;
+    padding: 3px !important;
 }
 
 tbody.vue3-easy-data-table__body.row-alternation tr td {
