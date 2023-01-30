@@ -259,7 +259,7 @@ const CATEGORIESFIRSTLINE = [
   "Auto ML", 
   "SQL ddb",
   "Excel VBA",
-  "Cloud web"
+  "Cloud Docker"
   
 ];
 const CATEGORIESSECONDLINE = [
