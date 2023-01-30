@@ -169,7 +169,7 @@
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 5px 10px;
+    --easy-table-body-item-padding: 5px 5px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
