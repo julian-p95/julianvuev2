@@ -164,7 +164,7 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 1px;
+    --easy-table-body-row-font-size: 15px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
