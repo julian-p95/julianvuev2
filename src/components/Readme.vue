@@ -20,7 +20,6 @@
     >
       <slot v-bind:params="params"></slot>
       <h1 v-if="isPrerender" class="text-3xl">
-        Julian
       </h1>
       </div>
       <h2 class="text-2xl mt-8 font-bold text-white">CONTACT & CV</h2>
