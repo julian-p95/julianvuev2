@@ -260,9 +260,9 @@ const CATEGORIESFIRSTLINE = [
  
   "Excel VBA",
   "Auto ML",
-  "Docker"
+  "Docker",
   "python",
-  "power bi",
+  "power bi"
   
 ];
 const CATEGORIESSECONDLINE = [
