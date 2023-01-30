@@ -251,27 +251,28 @@ import "swiper/css";
 const CATEGORIESFIRSTLINE = [
   "python",
   "power bi",
-  "azure",
+  "ms azure",
+  "Big Data",
+  "R Stats",
   
-  "r",
   
-  "docker",
-  "big query", 
-  "sap",
-  "excel",
-  "sql"
+   
+  "SQL ddb",
+  "Excel VBA",
+  "Auto ML",
+  "Cloud Docker"
   
 ];
 const CATEGORIESSECONDLINE = [
-  "data analytics",
-  "data engineering",
+  "Supply",
+  "Oil Gas",
   
-  "data visualization",  
-  "Statistics",
-  "Web Scraping",
-  "front end",
-  "machine learning",
-  "database"
+  "Renewable",  
+  "Electric",
+  "Finance",
+  "Efficiency",
+  "Agriculture",
+  "Marketing"
 ];
 
 function highlightSelected(cat: string) {
