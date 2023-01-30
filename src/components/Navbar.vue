@@ -113,7 +113,7 @@ graph_one {
   margin-top: 0px;
   margin-bottom: -5px;
   margin-left:-20px;
-  margin-right:-13px;
+  margin-right:-15px;
 }
 .graph_one th {
   color: #000000;
@@ -162,7 +162,7 @@ graph_one {
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Anvir", serif;
   font-size: 13px;
- 
+ margin-left: 5px;
   text-align:left;
   
 }
