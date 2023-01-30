@@ -253,13 +253,13 @@ const CATEGORIESFIRSTLINE = [
   "ms azure",
   "Database",
   "Big Data",
-  "R Studio",
+  "R Stats",
   
   
    
  
   "Excel VBA",
-  "ML Stats",
+  "Auto ML",
   "Docker",
   "python",
   "power bi"
