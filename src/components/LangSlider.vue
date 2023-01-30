@@ -266,15 +266,20 @@ const CATEGORIESFIRSTLINE = [
   
 ];
 const CATEGORIESSECONDLINE = [
-  "Supply",
-  "Oil Gas",
-  
-  "Renewable",  
-  "Electric",
   "Finance",
+  "Electric",
+  "Supply",
+  
+  
+
+  
+  
   "Efficiency",
   "Agriculture",
-  "Marketing"
+  
+  "Oil Gas",
+  "Marketing",
+  "Renewable"
 ];
 
 function highlightSelected(cat: string) {
