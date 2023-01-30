@@ -252,6 +252,7 @@ const CATEGORIESFIRSTLINE = [
  
   "ms azure",
   "Database",
+  "Auto ML",
   "Big Data",
   "R Stats",
   
@@ -259,7 +260,7 @@ const CATEGORIESFIRSTLINE = [
    
  
   "Excel VBA",
-  "Auto ML",
+ 
   "Docker",
   "python",
   "power bi"
