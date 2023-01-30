@@ -142,12 +142,12 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 15px;
+    --easy-table-body-row-font-size: 13px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 3px 10px;
+    --easy-table-body-item-padding: 2px 4px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
@@ -463,6 +463,11 @@ export default defineComponent({
                 sortable: true,
             },
             {
+                text: "Tool",
+                value: "tool",
+                sortable: true,
+            },
+            {
                 text: "Classification",
                 value: "classification",
                 sortable: true,
@@ -472,11 +477,7 @@ export default defineComponent({
                 value: "context",
                 sortable: true,
             },
-            {
-                text: "Tool",
-                value: "tool",
-                sortable: true,
-            },
+           
             {
                 text: "Links",
                 value: "link",
