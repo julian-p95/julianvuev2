@@ -267,9 +267,9 @@ const CATEGORIESSECONDLINE = [
   "Oil Gas",
   
   "Renewable",  
-  "Battery",
-  "Finance",
   "Electric",
+  "Finance",
+  "Metals",
   "Farmbeats",
   "Marketing"
 ];
