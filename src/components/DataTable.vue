@@ -151,7 +151,7 @@
     --easy-table-header-font-color: #ffffff;
     --easy-table-header-background-color: #0c173c;
 
-    --easy-table-header-item-padding: 3px 15px;
+    --easy-table-header-item-padding: 3px 5px;
 
     --easy-table-body-even-row-font-color: #ffffff;
     --easy-table-body-even-row-background-color: #0f234b;
@@ -160,12 +160,12 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 16px;
+    --easy-table-body-row-font-size: 10px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 3px 10px;
+    --easy-table-body-item-padding: 0px 10px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
@@ -241,13 +241,13 @@ thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
 
 
 .expended-row .details {
-    margin-right: 50px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 0px;
 }
 
 .vue3-easy-data-table__body td .expand-icon {
-    border-width: 0 3px 3px 0 !important;
-    padding: 3px !important;
+    border-width: 1 3px 3px 0 !important;
+    padding: 6px !important;
 }
 
 tbody.vue3-easy-data-table__body.row-alternation tr td {
@@ -313,7 +313,7 @@ const REACTIVE_CLASSES: any = {
     createdAt: "hidden lg:table-cell",
     all: "text-sm sm:text-lg",
 };
-
+7
 export default defineComponent({
     props: {
         tool: {
