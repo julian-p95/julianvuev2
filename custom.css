@@ -36,12 +36,7 @@
         justify-content: start !important;
     }
 }
-@media only screen and (min-width: 320px) {
-    .vue3-easy-data-table__body td .expand-icon {
-        border-width: 0 3px 3px 0 !important;
-        padding: 5px !important;
-    }
-}
+
 
 .usage-filter.second-filter select {
     border: none;
