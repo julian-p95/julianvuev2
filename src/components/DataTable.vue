@@ -24,8 +24,8 @@
           border border-gray-200
           text-gray-700
           py-1
-          px-4
-          pr-8
+          px-1
+          pr-1
           rounded
           leading-tight
           focus:outline-none focus:bg-white focus:border-gray-500
@@ -44,9 +44,10 @@
        
         
         
-        <button @click="resetData()" class="bg-gray-200 reset-btn  text-dark font-bold py-2 px-4">
+        <button @click="resetData()" class="bg-gray-200 reset-btn  text-dark font-bold py-1 px-1">
             Reset
         </button>
+       
     </div>
 </div>
 
@@ -91,8 +92,9 @@
   }
   
 .relative.filter-section{
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    
 }
 
 .usage-filter.count-box {
@@ -145,7 +147,7 @@
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 5px 5px;
+    --easy-table-body-item-padding: 3px 10px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
@@ -166,6 +168,7 @@
 .reset-btn {
     background: white;
     border-radius: 6px;
+    
 }
 .relative.filter-section {
     width: 100%;
@@ -178,7 +181,10 @@
     justify-content: center;
     margin-top: 0x;
     margin-bottom: 0px;
+    
+   
 }
+
 
 .usage-filter .filter-label {
     color: wheat;
@@ -226,8 +232,9 @@ thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
 }
 
 .vue3-easy-data-table__body td .expand-icon {
-    border-width: 0 6px 6px 0 !important;
+    border-width: 0 3px 3px 0 !important;
     padding: 5px !important;
+    margin-right: 5px;
 }
 
 tbody.vue3-easy-data-table__body.row-alternation tr td {
