@@ -125,6 +125,7 @@
 }
 
 .data-table {
+  
     --easy-table-border: 6px solid #445269;
     --easy-table-row-border: 3px solid #445269;
 
@@ -174,6 +175,8 @@
     width: 100%;
     display: flex;
     justify-content:  center;
+    margin-bottom:-5px;
+    padding:5px;
 }
 
 .usage-filter {
