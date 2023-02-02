@@ -251,17 +251,12 @@ import "swiper/css";
 const CATEGORIESFIRSTLINE = [
  
   "ms azure",
-  "Database",
-  "Auto ML",
-  "Big Data",
-  "R Stats",
-  
-  
-   
- 
-  "Excel VBA",
- 
-  "Docker",
+  "database",
+  "auto ml",
+  "big data",
+  "r stats",
+  "excel vba",
+  "docker",
   "python",
   "power bi"
   
@@ -270,14 +265,8 @@ const CATEGORIESSECONDLINE = [
   "Finance",
   "Electric",
   "Supply",
-  
-  
-
-  
-  
   "Efficiency",
   "Agriculture",
-  
   "Oil Gas",
   "Marketing",
   "Renewable"
