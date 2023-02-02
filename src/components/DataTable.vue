@@ -12,7 +12,7 @@
 
         <div class="titl">
         <h1 class="Software_heading"><u>PROJECTS IN PORTFOLIO</u> </h1>
-        <h2 class="Software_heading2">Swipe & Click icons to filter </h2>
+        <h2 class="Software_heading2">Swipe & Click Icons to Filter </h2>
     </div>
     </div>
     <div class="relative filter-section  mb-4">
@@ -83,7 +83,7 @@
   }
 
   .Software_heading2 {
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
     
     margin-top: 0px;
@@ -99,12 +99,12 @@
 
 .usage-filter.count-box {
     background: white;
-    padding: 0px 3px;
+    padding: 1px 5px;
     border-radius: 0px;
     margin-right: 5px;
     margin-top: -50px;
     margin-bottom: -10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .sortable.none .sortType-icon {
     display: none !important;
@@ -142,12 +142,12 @@
     --easy-table-body-row-background-color: #0f234b;
 
     --easy-table-body-row-height: 0px;
-    --easy-table-body-row-font-size: 13px;
+    --easy-table-body-row-font-size: 15px;
 
     --easy-table-body-row-hover-font-color: #0c173c;
     --easy-table-body-row-hover-background-color: #eee;
 
-    --easy-table-body-item-padding: 2px 4px;
+    --easy-table-body-item-padding: 3px 6px;
 
     --easy-table-footer-background-color: #0c173c;
     --easy-table-footer-font-color: #c0c7d2;
@@ -173,13 +173,14 @@
 .relative.filter-section {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:  center;
 }
 
 .usage-filter {
     display: flex;
     justify-content: center;
     margin-top: 0x;
+    margin-right:10px;
     margin-bottom: 0px;
     
    
