@@ -28,7 +28,7 @@
 
           Resume :
             <a href="https://www.canva.com/design/DAFUwYINHnc/qa3FKY9sIE22C8ffUx18qA/view?utm_content=DAFUwYINHnc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
-            target="_blank"><u> PDF (on Canva)</u></a>
+            target="_blank"><u> PDF</u></a>
          </h3>
 
          <h3><br>
@@ -41,7 +41,7 @@
         <h3><br>
           Linkedin:
           
-          <a href="https://www.linkedin.com/julian-p95"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
+          <a href="https://www.linkedin.com/julian-p95"  target="_blank" ><u>Julian Passebecq</u></a> 
           
         </h3>
 
