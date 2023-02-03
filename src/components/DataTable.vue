@@ -36,8 +36,8 @@
             <select @change="filterData(subCat)" v-model="subCat" className="Select=">
           >
                 <option value="">Context</option>
-                <option value="university">University</option>
-                <option value="work">Work</option>
+                <option value="education">Education</option>
+                <option value="company">Company</option>
                 <option value="personal">Personal</option>
             </select>
         </div>
@@ -471,16 +471,19 @@ export default defineComponent({
                 value: "tool",
                 sortable: true,
             },
+            
+             {
+                text: "Context",
+                value: "context",
+                sortable: true,
+            },
+            
             {
                 text: "Classification",
                 value: "classification",
                 sortable: true,
             },
-            {
-                text: "Context",
-                value: "context",
-                sortable: true,
-            },
+           
            
             {
                 text: "Links",
