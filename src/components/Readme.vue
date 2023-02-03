@@ -38,6 +38,13 @@
           
         </h3>
 
+        <h3><br>
+          Linkedin:
+          
+          <a href="https://www.linkedin.com/julian-p95"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
+          
+        </h3>
+
          <h3>
            Professional Github :
            
