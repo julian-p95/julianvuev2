@@ -252,24 +252,29 @@ const CATEGORIESFIRSTLINE = [
  
   "ms azure",
   "database",
-  "auto ml",
-  "big data",
-  "r stats",
   "excel vba",
+
+  "Front End",
+  "Big Query",
+  "Javascript",
   "docker",
+
   "python",
   "power bi"
   
 ];
 const CATEGORIESSECONDLINE = [
+  "Cloud",
+  "Auto ML",
+
+  "R Stats",
   "Finance",
-  "Electric",
-  "Supply",
-  "Efficiency",
   "Agriculture",
+
   "Oil Gas",
-  "Marketing",
-  "Renewable"
+
+  "Analytics",
+  "Big Data"
 ];
 
 function highlightSelected(cat: string) {
