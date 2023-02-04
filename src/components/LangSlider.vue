@@ -254,9 +254,9 @@ const CATEGORIESFIRSTLINE = [
   "database",
   "excel vba",
 
-  "Front End",
-  "Big Query",
-  "Javascript",
+  "front end",
+  "big query",
+  "javascript",
   "docker",
 
   "python",
@@ -264,17 +264,17 @@ const CATEGORIESFIRSTLINE = [
   
 ];
 const CATEGORIESSECONDLINE = [
-  "Cloud",
-  "Auto ML",
+  "cloud",
+  "auto ml",
 
-  "R Studio",
-  "Finance",
-  "Supply",
+  "r Studio",
+  "finance",
+  "supply",
 
-  "Calcul",
+  "calcul",
 
-  "Analytics",
-  "Big Data"
+  "analytics",
+  "big data"
 ];
 
 function highlightSelected(cat: string) {
