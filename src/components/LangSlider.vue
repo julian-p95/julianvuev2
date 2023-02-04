@@ -267,11 +267,11 @@ const CATEGORIESSECONDLINE = [
   "Cloud",
   "Auto ML",
 
-  "R Stats",
+  "R Studio",
   "Finance",
-  "Agriculture",
+  "Supply",
 
-  "Oil Gas",
+  "Calcul",
 
   "Analytics",
   "Big Data"
