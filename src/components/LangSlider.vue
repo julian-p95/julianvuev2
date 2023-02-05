@@ -267,11 +267,12 @@ const CATEGORIESSECONDLINE = [
   "cloud",
   "auto ml",
 
+  "real time",
   "r Studio",
-  "finance",
-  "supply",
+  "json",
+  "apis",
 
-  "calcul",
+  
 
   "analytics",
   "big data"
