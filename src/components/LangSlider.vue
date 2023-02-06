@@ -263,10 +263,12 @@ const CATEGORIESFIRSTLINE = [
 ];
 const CATEGORIESSECONDLINE = [
   "cloud",
-  "real time",
-  "energy",
-  "scrapping",
   "r studio",
+  "energy",
+  "real time",
+  
+  "scrapping",
+  
   "geography",
   "analytics",
   "big data"
