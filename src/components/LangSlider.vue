@@ -266,7 +266,7 @@ const CATEGORIESSECONDLINE = [
   "real time",
   "energy",
   "scrapping",
-  "r Studio",
+  "r studio",
   "geography",
   "analytics",
   "big data"
