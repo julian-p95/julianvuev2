@@ -31,7 +31,7 @@
             target="_blank"><u> PDF</u></a>
          </h3>
 
-         <h3><br>
+         <h3>
           Phone :
           
           <a href="tel:+33 7 67 42 48 98"  target="_blank" ><u>+33 7 67 42 48 98</u></a> 
