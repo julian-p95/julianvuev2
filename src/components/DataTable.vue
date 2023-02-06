@@ -92,8 +92,8 @@
   }
   
 .relative.filter-section{
-    margin-top: -5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     
 }
 
