@@ -225,7 +225,7 @@ thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
 
 .expended-row {
     display: flex;
-    justify-content: start;
+    flex: start;
     text-align: left;
 }
 

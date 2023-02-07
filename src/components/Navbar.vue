@@ -148,6 +148,7 @@ graph_one {
 }
 .graph_one tbody {
   display: flex !important;
+  
 }
 
 @font-face {
@@ -173,6 +174,34 @@ graph_one {
 .nav-button:hover .nav-icon {
   fill: #ffffff;
 }
+
+@media (min-width: 992px) {
+  #nav-title {
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: "Anvir", serif;
+  font-size: 23px;
+ margin-left: 5px;
+  text-align:left;
+  
+}
+.graph_one tr {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  width: 41px;
+  margin: 5px;
+}
+.graph_one th {
+  color: #000000;
+  margin-top: 0px;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+
+}
+
 </style>
 
 <script lang="ts">
