@@ -269,7 +269,7 @@ tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(6) {
 }
 
 tbody.vue3-easy-data-table__body.row-alternation tr td {
-    border-left: 2px solid #4c5d7a;
+    border-left: 1px solid #4c5d7a;
 
 }
 
