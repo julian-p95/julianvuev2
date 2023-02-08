@@ -27,7 +27,7 @@
         <h3>
 
           Resume :
-            <a href="https://www.canva.com/design/DAFUwYINHnc/qa3FKY9sIE22C8ffUx18qA/view?utm_content=DAFUwYINHnc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+            <a href="https://www.canva.com/design/DAFZ5wMaI68/UEwXBFeAFNYd0eC0JTbb7w/view?utm_content=DAFZ5wMaI68&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
             target="_blank"><u> PDF</u></a>
          </h3>
 
