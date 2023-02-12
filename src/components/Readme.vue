@@ -41,7 +41,7 @@
         <h3>
           Linkedin:
           
-          <a href="https://www.linkedin.com/julian-p95"  target="_blank" ><u>Julian Passebecq</u></a> 
+          <a href="https://www.linkedin.com/in/julian-p95/"  target="_blank" ><u>Julian Passebecq</u></a> 
           
         </h3>
 
