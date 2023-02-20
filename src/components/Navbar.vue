@@ -9,7 +9,7 @@
       <span
         id="nav-title"
         class="leading-none self-center text-2xl sm:text-4xl font-semibold whitespace-nowrap text-white md:text-5xl mt-1 mb-2"
-        ><u>Julian PASSEBECQ</u><br>  Energy Engineer<br>4 years Data Exp</span>
+        ><u>Julian PASSEBECQ</u><br>  Energy & Data Engineer</span>
        
       
       
