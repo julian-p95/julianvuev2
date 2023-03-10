@@ -67,17 +67,17 @@
       </div>
 
         
-        <h2 class="text-xl mt-6">2022: Danone,Digital Manager</h2>
+        <h2 class="text-xl mt-6">2022: Danone, Digital Manager</h2>
         
 
-       <h2 class="text-xl mt-6">2020/21: Startup,Data Sc, Cloud</h2>
+       <h2 class="text-xl mt-6">2020/21: Startup, Data Sc, Cloud</h2>
       
         
 
       
       
         
-        <h2 class="text-xl mt-6">2018/19: TOTAL,Product Owner</h2>
+        <h2 class="text-xl mt-6">2018/19: TOTAL, Product Owner</h2>
       
         
       <h2 class="text-xl mt-6">2017: SAVENCIA, Data Intern</h2>
