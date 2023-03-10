@@ -26,7 +26,7 @@
       <div class="ml-2 md:ml-4">
         <h3>
 
-          Resume :
+          CV / Resume :
             <a href="https://www.canva.com/design/DAFc0XSUzCc/NBuL3JYwa20b_qm8-92psQ/view?utm_content=DAFc0XSUzCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
             target="_blank"><u> PDF</u></a>
          </h3>
