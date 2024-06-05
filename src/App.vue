@@ -41,7 +41,7 @@ export default defineComponent({
   },
   data() {
     return {
-      category: "",
+      category: "BI",
       isPrerender: this.ua?.toString().includes("prerender"),
       showModal: this.ua?.toString().includes("prerender"),
     };

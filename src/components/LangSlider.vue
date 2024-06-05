@@ -1,21 +1,14 @@
 <template>
   <div class="my-12">
-
-    <div class="titl">
-     
-      
-  </div>
-    
-    
+    <div class="titl"></div>
     <hr class="border1" style="width:100%;align:center; margin-top: -3em;color:white">
     <div class="tit">
-      
       <h1 class="tit0"></h1>
     </div>
 
     <div id="lang-wrapper">
       <swiper
-      :grabCursor="true"
+        :grabCursor="true"
         :slideToClickedSlide="true"
         :centeredSlides="true"
         :modules="modules"
@@ -24,26 +17,27 @@
         :loop="true"
         :breakpoints="{
           '1280': {
-            slidesPerView: 8,
+            slidesPerView: 5,
           },
         }"
       >
         <swiper-slide
-        class="px-2 !mx-0 single-category"
-        v-for="(cat, index) in catsFirstLine"
-        :key="index"
+          class="px-2 !mx-0 single-category"
+          v-for="(cat, index) in catsFirstLine"
+          :key="index"
         >
-        <img
-        @click="clickCategory(cat)"
-        :class="`cursor-pointer max-h-16 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo
-         ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
-        :alt="cat"
-        :src="`/logos/${cat}.png`"
-      />
-      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
+          <img
+            @click="clickCategory(cat)"
+            :class="`cursor-pointer max-h-16 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo
+              ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
+            :alt="cat"
+            :src="`/logos/${cat}.png`"
+          />
+          <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
+
     <div id="swiper-buttons" class="flex justify-between mb-4 mt-4 mx-4">
       <button>
         <svg @click="prev(0)"
@@ -69,7 +63,7 @@
 
     <div id="lang-wrapper">
       <swiper
-      :grabCursor="true"
+        :grabCursor="true"
         :slideToClickedSlide="true"
         :centeredSlides="true"
         :modules="modules"
@@ -83,18 +77,18 @@
         }"
       >
         <swiper-slide
-        class="px-2 !mx-0 single-category"
-        v-for="(cat, index) in catsSecondLine"
-        :key="index"
+          class="px-2 !mx-0 single-category"
+          v-for="(cat, index) in catsSecondLine"
+          :key="index"
         >
-        <img
-        @click="clickCategory(cat)"
-        :class="`cursor-pointer max-h-16 mt-10 category-img max-w-16 sm:max-h-18 sm:max-w-18 md:max-h-20 md:max-w-20 lg:max-h-24 lg:max-w-24 xl:max-h-28 xl:max-w-28 lang-logo 
-        ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
-        :alt="cat"
-        :src="`/logos/${cat}.png`"
-      />
-      <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
+          <img
+            @click="selectSecondCategory(cat)"
+            :class="`cursor-pointer max-h-10 mt-10 category-img max-w-10 sm:max-h-12 sm:max-w-12 md:max-h-14 md:max-w-14 lg:max-h-16 lg:max-w-16 xl:max-h-18 xl:max-w-18 lang-logo
+              ${cat.indexOf(' ') > -1?cat.replace(/ /g, '-'):cat }-logo`"
+            :alt="cat"
+            :src="`/logos/${cat}.png`"
+          />
+          <p class="category-name">{{ cat.split(' ').map(capitalize).join(' ') }}</p>
         </swiper-slide>
       </swiper>
     </div> 
@@ -118,26 +112,115 @@
         </svg>
       </button>
     </div>
-    
   </div>
   <hr class="border2" style="width:100%;align:center; margin-top: -3em;margin-bottom: 2.5em;color:white">
 </template>
 
+<script lang="ts">
+import { defineComponent } from "vue";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Keyboard, FreeMode, Navigation } from "swiper";
+import "swiper/css";
+
+const CATEGORIESFIRSTLINE = [
+  "Front End",
+  "BI",
+  "Analytics",
+  "Cloud",
+  "Data Science"
+];
+
+const SECOND_LINE_CATEGORIES = {
+  "Front End": ["html", "css", "javascript", "vuejs", "react"],
+  "BI": ["powerbi", "tableau", "qlik", "datawarehousing", "sql"],
+  "Analytics": ["sql", "duckdb", "excel", "python", "r"],
+  "Cloud": ["aws", "azure", "gcp", "cloudfunctions", "serverless"],
+  "Data Science": ["machinelearning", "deeplearning", "nlp", "timeseries", "bigdata"]
+};
+
+function highlightSelected(cat: string) {
+  if(cat!="" && cat!='all') {
+    const logos = document.querySelectorAll(".lang-logo");
+    logos.forEach((logo) => {
+      logo.classList.remove("logo-selected");
+    });
+    console.log("logo changed ",cat)
+    document.querySelectorAll(`.${cat}-logo`).forEach((logo) => {
+      logo.classList.add("logo-selected");
+    });
+  }
+  else{
+    const logos = document.querySelectorAll(".lang-logo");
+    logos.forEach((logo) => {
+      logo.classList.add("logo-selected");
+    });
+  }
+}
+
+export default defineComponent({
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      catsFirstLine: CATEGORIESFIRSTLINE,
+      catsSecondLine: SECOND_LINE_CATEGORIES[CATEGORIESFIRSTLINE[0]],
+      selectedFirstCategory: CATEGORIESFIRSTLINE[0],
+      modules: [Keyboard, Navigation, FreeMode],
+    };
+  },
+  methods: {
+    capitalize(str: string) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    },
+    clickCategory(cat: string) {
+      this.selectedFirstCategory = cat;
+      this.catsSecondLine = SECOND_LINE_CATEGORIES[cat];
+      this.$emit("clickCategory", cat);
+      if (cat.indexOf(" ") > -1) {
+        highlightSelected(cat.replace(/ /g, "-"));
+      } else {
+        highlightSelected(cat);
+      }
+    },
+    selectSecondCategory(cat: string) {
+      this.$emit("clickCategory", cat);
+      if (cat.indexOf(" ") > -1) {
+        highlightSelected(cat.replace(/ /g, "-"));
+      } else {
+        highlightSelected(cat);
+      }
+    },
+    next(index: number) {
+      let button = document?.getElementsByClassName(
+        "swiper-button-next"
+      )[index] as HTMLElement;
+      console.log("button: " ,button);
+      button.click();
+    },
+    prev(index: number) {
+      let button = document?.getElementsByClassName(
+        "swiper-button-prev"
+      )[index] as HTMLElement;
+      console.log("button: " ,button);
+      button.click();
+    },
+  },
+  mounted() {
+    highlightSelected(CATEGORIESFIRSTLINE[0]);
+  },
+});
+</script>
+
 <style>
-
-
-
 hr.border1 {
-border-top: 0.5px dashed rgb(255, 255, 255);
+  border-top: 0.5px dashed rgb(255, 255, 255);
 }
 
 hr.border2 {
   border-top: 0.5px dashed rgb(255, 255, 255);
-  }
-  
-
-
-
+}
 
 .data_heading {
   font-size: 16px;
@@ -154,10 +237,7 @@ hr.border2 {
   text-align: center;
   color: #fff;
   margin-left: 3px;
-
 }
-
-
 
 .tit0 {
   font-size: 13px;
@@ -166,10 +246,8 @@ hr.border2 {
   text-align: center;
   color: #fff;
   text-decoration: underline;
-  
-  
- 
 }
+
 .title2 {
   font-size: 10px;
   margin-top: -20px;
@@ -177,10 +255,7 @@ hr.border2 {
   text-align: center;
   color: #fff;
   margin-right: 3px;
-  
- 
 }
-
 
 #lang-wrapper {
   mask-image: linear-gradient(
@@ -191,16 +266,19 @@ hr.border2 {
     transparent 100%
   );
 }
+
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: center;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
   display: none;
 }
+
 .prev {
   transform: rotate(180deg);
 }
@@ -211,16 +289,18 @@ hr.border2 {
     justify-content: space-between;
   }
 }
+
 .lang-logo {
   opacity: 0.5;
 }
+
 .lang-logo:hover {
   opacity: 1;
 }
+
 .logo-selected {
   opacity: 1;
 }
-
 
 .swiper-slide.single-category {
   display: flex;
@@ -232,107 +312,7 @@ hr.border2 {
   font-size: 10px;
 }
 
-
-
 div#swiper-buttons button svg {
   height: 15px;
 }
-
 </style>
-
-<script lang="ts">
-import { defineComponent } from "vue";
-import { Swiper, SwiperSlide } from "swiper/vue";
-import { Keyboard, FreeMode, Navigation } from "swiper";
-
-// Import Swiper styles
-import "swiper/css";
-
-const CATEGORIESFIRSTLINE = [
- 
-  "ms azure",
-  "database",
-  "auto ml",
-  "front end",
-  "apis",
-  "excel vba",
-  "javascript",
-  "python",
-  "power bi"
-  
-];
-const CATEGORIESSECONDLINE = [
-  "cloud",
-  "r studio",
-  "energy",
-  "real time",
-  
-  "scrapping",
-  
-  "geography",
-  "analytics",
-  "big data"
-  
-];
-
-function highlightSelected(cat: string) {
-  if(cat!="" && cat!='all') {
-  const logos = document.querySelectorAll(".lang-logo");
-  logos.forEach((logo) => {
-    logo.classList.remove("logo-selected");
-  });
-  console.log("logo changed ",cat)
-  document.querySelectorAll(`.${cat}-logo`).forEach((logo) => {
-    logo.classList.add("logo-selected");
-  });
-}
-else{
-  const logos = document.querySelectorAll(".lang-logo");
-  logos.forEach((logo) => {
-    logo.classList.add("logo-selected");
-  });
-}
-}
-
-export default defineComponent({
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  data() {
-    return {
-      catsFirstLine: CATEGORIESFIRSTLINE,
-      catsSecondLine: CATEGORIESSECONDLINE,
-      modules: [Keyboard, Navigation, FreeMode],
-    };
-  },
-  methods: {
-    capitalize(str: string) {
-      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-    },
-    clickCategory(cat: string) {
-      this.$emit("clickCategory", cat);
-      if (cat.indexOf(" ") > -1) {
-                highlightSelected(cat.replace(/ /g, "-"));
-            } else
-            highlightSelected(cat);
-    },
-    next(index: number) {
-      let button = document?.getElementsByClassName(
-        "swiper-button-next"
-      )[index] as HTMLElement;
-      console.log("button: " ,button);
-      button.click();
-    },
-    prev(index: number) {
-      let button = document?.getElementsByClassName(
-        "swiper-button-prev"
-      )[index] as HTMLElement;
-      button.click();
-    },
-  },
-  mounted() {
-    highlightSelected("all");
-  },
-});
-</script>
